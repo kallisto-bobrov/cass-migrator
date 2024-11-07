@@ -1,0 +1,25 @@
+{
+  "id": "themengebiete_tags_aleri",
+  "label": "themengebiete_tags_aleri",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading6",
+          "label": "display name"
+        }
+      },
+      "tag": {
+        "type": "Text",
+        "config": {
+          "label": "tag"
+        }
+      }
+    }
+  },
+  "hash": "aaa7386837c498ccd93b40b6e349bec4",
+  "status": true,
+  "format": "custom"
+}

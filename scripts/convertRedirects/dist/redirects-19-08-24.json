@@ -1,0 +1,392 @@
+[
+  {
+    "source": "/inspire/die-krise-als-katalysator-fuer-organisatorische-resilienz",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/kryptastisch-der-podcast-rund-um-blockchain-krypto-und-finanzinnovationen",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/gamechanger-cloud-finops",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/kalkulationsmodell-fuer-serviceorientierte-it-organisation",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/it-servicekatalog-als-grundlage-fuer-it-organisationen",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/webinarreihe-die-coronakrise-meistern",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-griffel",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-muendel",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-klinkhammer",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-sachsenhofer",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-bauer",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-pallenberg",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-schmidt",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-hellmann",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-lindblom",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-ziller",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-hageboelling",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/greenlab-fog-computing",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-brecke",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-sage",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-behnken",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-strombeck",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/blockchain",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-brand",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/interview/interview-schmitz",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/wirvsvirus-hackathon",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "//inspire/greenlab-autonomie-und-kooperation",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/events/event-digitale-garage-essen1",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/events/event-digitale-garage-stuttgart",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/digitale-garage-2019",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/digitale-garage-lean-analytics",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/scrum-master-in-krisenzeiten",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/digitalk",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/lectures-vortraege",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/live-talk-sutainable-business",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/events/lunchbreaktalks",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/qala-stammtisch-2020",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/qala-rueckblick-2020",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/das-war-unser-qala-stammtisch",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/customer-insights-mit-dem-richtigen-martechstack-generieren",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/aufbruch-in-eine-sichere-it_zukunft",
+    "destination": "https://www.cassini.de/leistungen/security-privacy",
+    "permanent": true
+  },
+  {
+    "source": "/interview/warntag-2020",
+    "destination": "https://www.cassini.de/leistungen/security-privacy",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/data-analytics-in-zeiten-von-corona",
+    "destination": "https://www.cassini.de/leistungen/data-science-analytics-ai/data-analytics",
+    "permanent": true
+  },
+  {
+    "source": "/interview/michael-seipel-leadership",
+    "destination": "https://www.cassini.de/karriere/cassini-erleben",
+    "permanent": true
+  },
+  {
+    "source": "/interview/laurence-greeb-vom-offizier-zum-berater",
+    "destination": "https://www.cassini.de/karriere/cassini-erleben",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/das-daa-team-stellt-sich-vor-fachliches-interview-dr-peter-rehbein",
+    "destination": "https://www.cassini.de/karriere/cassini-erleben",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/das-daa-team-stellt-sich-vor-dr-niels-aka-fachlich",
+    "destination": "https://www.cassini.de/karriere/cassini-erleben",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-operations-kooperation",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-technology-collaborations-and-tools",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-technology-data-analytics",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-operations-prozessoptimierung",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-operations-lean-prinzipien",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-operations-anlaufplanung",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-operations-risikomanagement",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-organisation-agile-transformation",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-organisation-taskforcing",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-organisation-digitale-collaboration",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-organisation-personalien",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-organisation-projectscopes",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-operations-ressourcenmanagement",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-technology-data-security",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-technology-it-architektur",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-strategy-unternehmensstrategie",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-strategie-marktanalyse",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-strategy-foerderung-und-kredite",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/business-continuity-strategy-cashflow",
+    "destination": "https://www.cassini.de/business-continuity-management",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/podcast-studie-nachhaltigkeitstransformation",
+    "destination": "https://www.cassini.de/inspire/studie-digitalisierung-nachhaltigkeitstransformation",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/ki-kameras-in-der-logistik",
+    "destination": "https://www.cassini.de/leistungen/data-science-analytics-ai/kuenstliche-intelligenz",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/diversity-management",
+    "destination": "https://www.cassini.de/diversity",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/sinnvoller-einsatz-von-safe",
+    "destination": "https://www.cassini.de/skalierte-agilitaet-im-reality-check",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/barrierefreiheit-in-agilen-projekten",
+    "destination": "https://www.cassini.de/leistungen/agile-transformation",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/rolle-productowner-kommunikation",
+    "destination": "https://www.cassini.de/leistungen/agile-transformation",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/smarte-produkte",
+    "destination": "https://www.cassini.de/leistungen/digitale-produkte-und-service",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/chatbots-im-licht-von-datenschutz-und-sicherheit",
+    "destination": "https://www.cassini.de/leistungen/privacy",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/verwaltung-in-der-krise",
+    "destination": "https://www.cassini.de/leistungen/oeffentlicher-sektor-der-zukunft",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/aufbruch-in-eine-sichere-it_zukunft",
+    "destination": "https://www.cassini.de/leistungen/security-privacy",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/greenlab-autonomie-und-kooperation",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/data-analytics-in-zeiten-von-corona",
+    "destination": "https://www.cassini.de/leistungen/data-science-analytics-ai",
+    "permanent": true
+  }
+]

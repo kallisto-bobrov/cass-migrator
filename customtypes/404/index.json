@@ -1,0 +1,2610 @@
+{
+  "id": "404",
+  "label": "404",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "name"
+        }
+      },
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "display name"
+        }
+      }
+    },
+    "Content": {
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": { },
+          "choices": {
+            "buhne_m005": {
+              "type": "Slice",
+              "fieldset": "Bühne M005",
+              "description": "Vollbild Hintegrund, Dachzeile, H1, Text, Button - (Cassini AG)",
+              "icon": "call_to_action",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "hintergrundbild": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 2880,
+                      "height": 1620
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 1152,
+                      "height": 640
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Hintergrundbild"
+                  }
+                },
+                "hintegrundbild_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Hintegrundbild titel"
+                  }
+                },
+                "dachzeile": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Dachzeile"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Text"
+                  }
+                },
+                "button_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button text"
+                  }
+                },
+                "button_url": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Button url",
+                    "allowTargetBlank": true,
+                    "select": null
+                  }
+                },
+                "ankerlink_ziel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Ziel",
+                    "placeholder": "z.b. #ankerlink_name"
+                  }
+                },
+                "button_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button title"
+                  }
+                },
+                "video_url_desktop": {
+                  "type": "Link",
+                  "config": {
+                    "select": "media",
+                    "label": "Video URL Desktop"
+                  }
+                },
+                "video_url_mobile": {
+                  "type": "Link",
+                  "config": {
+                    "select": "media",
+                    "label": "Video URL Mobile (Optional)"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "magazin_m024": {
+              "type": "Slice",
+              "fieldset": "Magazin M024",
+              "description": "Magazin - (Cassini AG)",
+              "icon": "apps",
+              "display": "list",
+              "non-repeat": {
+                "featured_article": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "article", "interview" ],
+                    "label": "Featured article"
+                  }
+                },
+                "featured_box_top": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Featured box top"
+                  }
+                },
+                "featured_box_bottom": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Featured box bottom"
+                  }
+                },
+                "tag_filter_reset": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter: Tags zurücksetzen",
+                    "placeholder": "Falls leer: Entdecken"
+                  }
+                },
+                "type_filter_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter: Typ Label",
+                    "placeholder": "Falls leer: Filtern"
+                  }
+                },
+                "type_filter_reset": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter: Typ zurücksetzen",
+                    "placeholder": "Falls leer: Alle anzeign"
+                  }
+                },
+                "info_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Info Text",
+                    "placeholder": "Falls leer: Zur Auswahl konnten keine Inhalte gefunden werden."
+                  }
+                },
+                "show_more": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Mehr anzeigen",
+                    "placeholder": "Falls leer: Weitere Inhalte einblenden"
+                  }
+                }
+              },
+              "repeat": {
+                "tag_name": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "tag" ],
+                    "label": "Segmented button tag"
+                  }
+                }
+              }
+            },
+            "logo_banderole_m013": {
+              "type": "Slice",
+              "fieldset": "Logo Banderole M013",
+              "description": "Headline, Auswahl der Logos - (Cassini AG)",
+              "icon": "image",
+              "display": "grid",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                }
+              },
+              "repeat": {
+                "logo": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 400,
+                      "height": 400
+                    },
+                    "thumbnails": [ ],
+                    "label": "Logo"
+                  }
+                },
+                "logo_alt": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Logo alt"
+                  }
+                }
+              }
+            },
+            "fliesstext_m006": {
+              "type": "Slice",
+              "fieldset": "Fliesstext M006",
+              "description": "H2, Fließtext - (Cassini AG)",
+              "icon": "border_color",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "textgrosse": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "gross", "standard", "klein" ],
+                    "default_value": "gross",
+                    "label": "Textgrösse"
+                  }
+                },
+                "text_color": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "standard", "primary" ],
+                    "default_value": "standard",
+                    "label": "Textfarbe"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,strong,em,hyperlink,image,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "bild_klein": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 600,
+                      "height": 337
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 320,
+                      "height": 315
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild klein"
+                  }
+                },
+                "bild_medium": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 600,
+                      "height": 674
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 320,
+                      "height": 595
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild medium"
+                  }
+                },
+                "bild_gross": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 600,
+                      "height": 805
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 320,
+                      "height": 595
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild gross"
+                  }
+                },
+                "verlinkung_bild_url": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "Verlinkung Bild URL",
+                    "select": null,
+                    "placeholder": "Nur externe URL, z.B. https://youtube.com"
+                  }
+                },
+                "verlinkung_link_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Verlinkung Link Titel"
+                  }
+                },
+                "bild_position": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "links", "rechts" ],
+                    "default_value": "links",
+                    "label": "Bild Position"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "textteaser-komposition_m008": {
+              "type": "Slice",
+              "fieldset": "Textteaser-Komposition M008",
+              "description": "Unterschiedliche Teaser-Bild-Kompositionen - (Cassini AG)",
+              "icon": "art_track",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                }
+              },
+              "repeat": {
+                "bild_2_3": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 765,
+                      "height": 1150
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 765,
+                      "height": 1150
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild 2:3"
+                  }
+                },
+                "bild_16_9": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 1440,
+                      "height": 810
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 576,
+                      "height": 320
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild 16:9"
+                  }
+                },
+                "kompositionstyp": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "2-Teaser-horizontal", "2-Teaser-vertikal-Bild", "1-Teaser-Bild" ],
+                    "default_value": "2-Teaser-horizontal",
+                    "label": "Kompositionstyp"
+                  }
+                },
+                "zielseite_1": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite 1"
+                  }
+                },
+                "zielseite_2": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite 2"
+                  }
+                },
+                "bild_2_3_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bild 2:3 - title"
+                  }
+                },
+                "bild_16_9_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bild 16:9-title"
+                  }
+                }
+              }
+            },
+            "text_teaser_m009": {
+              "type": "Slice",
+              "fieldset": "Text Teaser M009",
+              "description": "Einleitung, Auswahl der angeteaserten Seiten - (Cassini AG)",
+              "icon": "filter_none",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                }
+              },
+              "repeat": {
+                "teaser_farbe": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "weiss", "farbig" ],
+                    "default_value": "weiss",
+                    "label": "Teaser-Farbe"
+                  }
+                },
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite"
+                  }
+                }
+              }
+            },
+            "vollbild-bild-text-teaser_m029": {
+              "type": "Slice",
+              "fieldset": "Vollbild-Bild-Text-Teaser M029",
+              "description": "vollbild Hintergrund & Teaser-Texte von der Zielseite - (Cassini AG)",
+              "icon": "add_to_queue",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "textboxen_schmuckbilder": {
+              "type": "Slice",
+              "fieldset": "Textboxen/Schmuckbilder M010",
+              "description": "Textboxen mit Schmuckbildern mit Überlagerung - (Cassini AG)",
+              "icon": "add_to_photos",
+              "display": "grid",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "bild_2_3": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 765,
+                      "height": 1150
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 765,
+                      "height": 1150
+                    }, {
+                      "name": "XS",
+                      "width": 765,
+                      "height": 1150
+                    } ],
+                    "label": "Bild 2:3"
+                  }
+                },
+                "bild_2_3_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bild 2:3 - title"
+                  }
+                },
+                "bild_16_9": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 1440,
+                      "height": 810
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 576,
+                      "height": 320
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild 16:9"
+                  }
+                },
+                "bild_16_9_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bild 16:9-title"
+                  }
+                }
+              },
+              "repeat": {
+                "bild": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 2880,
+                      "height": 1620
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 1152,
+                      "height": 640
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading3",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Zielseite",
+                    "placeholder": "wenn ausgefüllt, gibt es keine Überlagerung M33",
+                    "allowTargetBlank": true,
+                    "select": null
+                  }
+                },
+                "ankerlink_ziel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Ziel",
+                    "placeholder": "z.b. #ankerlink_name"
+                  }
+                },
+                "zielseite_link_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Zielseite link title"
+                  }
+                },
+                "farbschema": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "hell", "dunkel" ],
+                    "default_value": "hell",
+                    "label": "Farbschema"
+                  }
+                },
+                "text_uberlagerung": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text in der Überlagerung"
+                  }
+                },
+                "textgrosse": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "standard", "gross", "klein" ],
+                    "default_value": "standard",
+                    "label": "Textgrösse"
+                  }
+                },
+                "bild_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bild title"
+                  }
+                },
+                "bildunterschrift": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bildunterschrift"
+                  }
+                }
+              }
+            },
+            "textboxen_mit_uberlagerung_m034": {
+              "type": "Slice",
+              "fieldset": "Textboxen mit Überlagerung M034",
+              "description": "Textboxen wahlweise mit Überlagerung oder Verlinkung (Cassini AG)",
+              "icon": "add_box",
+              "display": "grid",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "cta_position": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "links", "zentriert", "rechts" ],
+                    "default_value": "links",
+                    "label": "CTA Position",
+                    "placeholder": "Button-Ausrichtung auswählen"
+                  }
+                },
+                "cta_farbe": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "primary", "secondary" ],
+                    "default_value": "primary",
+                    "label": "CTA Farbe",
+                    "placeholder": "Farbe auswählen"
+                  }
+                },
+                "cta_button_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "CTA Button text"
+                  }
+                },
+                "cta_button_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "CTA Button title"
+                  }
+                },
+                "cta_zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "CTA Zielseite"
+                  }
+                },
+                "cta_externe_url": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "CTA Externe URL",
+                    "select": null
+                  }
+                },
+                "cta_ankerlink_ziel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "CTA Ankerlink Ziel",
+                    "placeholder": "z.b. #ankerlink_name"
+                  }
+                }
+              },
+              "repeat": {
+                "bild": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 1152,
+                      "height": 640
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 1152,
+                      "height": 640
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading3",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Zielseite",
+                    "placeholder": "wenn ausgefüllt, gibt es keine Überlagerung M33",
+                    "allowTargetBlank": true,
+                    "select": null
+                  }
+                },
+                "zielseite_link_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Zielseite link title"
+                  }
+                },
+                "zielseite_link_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Zielseite link text"
+                  }
+                },
+                "ankerlink_ziel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Ziel",
+                    "placeholder": "z.b. #ankerlink_name"
+                  }
+                },
+                "farbschema": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "hell", "dunkel" ],
+                    "default_value": "hell",
+                    "label": "Farbschema"
+                  }
+                },
+                "bgcolor": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "dunkel", "farbig", "hell", "gray" ],
+                    "default_value": "dunkel",
+                    "label": "Kachel Hintergrundfarbe"
+                  }
+                },
+                "text_uberlagerung": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,strong,em,hyperlink,list-item,o-list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text in der Überlagerung"
+                  }
+                },
+                "textgrosse": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "standard", "gross", "klein" ],
+                    "default_value": "standard",
+                    "label": "Textgrösse"
+                  }
+                },
+                "bild_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bild title"
+                  }
+                },
+                "bildunterschrift": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bildunterschrift"
+                  }
+                }
+              }
+            },
+            "text_mit_bild_m011": {
+              "type": "Slice",
+              "fieldset": "Text mit Bild M011",
+              "description": "Slider mit Bild und Fliesstext - (Cassini AG)",
+              "icon": "view_carousel",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                }
+              },
+              "repeat": {
+                "bild": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 1440,
+                      "height": 2000
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 1152,
+                      "height": 640
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text",
+                    "placeholder": "Nur ausfüllen wenn Globale Referenz leer ist"
+                  }
+                }
+              }
+            },
+            "ansprechpartner_m015": {
+              "type": "Slice",
+              "fieldset": "Ansprechpartner M015",
+              "description": "Ansprechpartner mit Überlagerung - (Cassini AG)",
+              "icon": "assignment_ind",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                }
+              },
+              "repeat": {
+                "ansprechpartner": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "ansprechpartner" ],
+                    "label": "Ansprechpartner (Profil-Informationen)"
+                  }
+                },
+                "profil_link": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "page" ],
+                    "label": "Profil-Link (Überlagerung)"
+                  }
+                },
+                "profil_link_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Profil link text"
+                  }
+                },
+                "profil_link_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Profil link title"
+                  }
+                },
+                "check_uberlagerung": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Überlagerung"
+                  }
+                }
+              }
+            },
+            "magazin-startseiten-teaser_m007": {
+              "type": "Slice",
+              "fieldset": "Magazin-Startseiten-Teaser M007",
+              "description": "Filterlinks, Vollbild-Bild-Text-Teaser als Slider - (Cassini AG)",
+              "icon": "view_carousel",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "uberschrift_filter": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Überschrift Filter",
+                    "placeholder": "z.B. Weitere Impulse-Themen"
+                  }
+                },
+                "prev-button_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Prev-Button titel",
+                    "placeholder": "z.B. Zur vorherigen Referenz"
+                  }
+                },
+                "next-button_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Next-Button titel",
+                    "placeholder": "z.B. Zur nächsten Referenz"
+                  }
+                },
+                "filterlink_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filterlink title"
+                  }
+                },
+                "filter_zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "page" ],
+                    "label": "Filter-Zielseite"
+                  }
+                }
+              },
+              "repeat": {
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "article", "interview", "podcast" ],
+                    "label": "Zielseite"
+                  }
+                },
+                "tag": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "tag" ],
+                    "label": "Tag"
+                  }
+                }
+              }
+            },
+            "mediengalerie_m037": {
+              "type": "Slice",
+              "fieldset": "Mediengalerie M037",
+              "description": "Bild & YouTube-Video Slider inkl. Bildunterschrift (Cassini-AG)",
+              "icon": "view_carousel",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                }
+              },
+              "repeat": {
+                "bild": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 1260,
+                      "height": 705
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 1152,
+                      "height": 640
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild"
+                  }
+                },
+                "bildunterschrift": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bild- / Videounterschrift"
+                  }
+                },
+                "youtube_link": {
+                  "type": "Embed",
+                  "config": {
+                    "label": "YouTube Link"
+                  }
+                }
+              }
+            },
+            "zitat_mit_portrait_m018b": {
+              "type": "Slice",
+              "fieldset": "Zitat mit Portrait M018b",
+              "description": "Zitat, Bild, Beschreibung",
+              "icon": "chat",
+              "display": "list",
+              "non-repeat": {
+                "zitat": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Zitat"
+                  }
+                },
+                "author": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Author",
+                    "placeholder": "z.B. Angabe von Name, Position und Firma"
+                  }
+                },
+                "bildgrosse": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "adaptiv", "original" ],
+                    "default_value": "adaptiv",
+                    "label": "Bildgrösse"
+                  }
+                },
+                "bild": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 600,
+                      "height": 337
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 217,
+                      "height": 217
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild"
+                  }
+                },
+                "beschreibung": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading3,heading4,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Beschreibung"
+                  }
+                },
+                "bild_medium": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 600,
+                      "height": 674
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 320,
+                      "height": 595
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild medium"
+                  }
+                },
+                "bild_gross": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 600,
+                      "height": 805
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 320,
+                      "height": 595
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild gross"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "event-teaser-ubersicht_m014": {
+              "type": "Slice",
+              "fieldset": "Event-Teaser-Übersicht M014",
+              "description": "Event-Teaser - (Cassini-Ag)",
+              "icon": "perm_contact_calendar",
+              "display": "grid",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "tag": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "tag" ],
+                    "label": "Tag",
+                    "placeholder": "Choose a tag to get events"
+                  }
+                },
+                "show_more": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Mehr anzeigen",
+                    "placeholder": "Wenn leer: Weitere Events einblenden"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "spacer": {
+              "type": "Slice",
+              "fieldset": "Spacer",
+              "description": "Leerraum zwischen Modulen hinzufügen",
+              "icon": "arrow_downward",
+              "display": "list",
+              "non-repeat": { },
+              "repeat": { }
+            },
+            "download-teaser-ubersicht": {
+              "type": "Slice",
+              "fieldset": "Download-Teaser-Übersicht",
+              "description": "Download-Teaser, 1-n - (Cassini-Ag)",
+              "icon": "cloud_download",
+              "display": "grid",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "show_more": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Mehr anzeigen",
+                    "placeholder": "Wenn leer: Weitere Downloads einblenden"
+                  }
+                }
+              },
+              "repeat": {
+                "document_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading3",
+                    "label": "Dokument-Titel"
+                  }
+                },
+                "document_type": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Dokument-Typ",
+                    "placeholder": "Factsheet o.ä."
+                  }
+                },
+                "document_link": {
+                  "type": "Link",
+                  "config": {
+                    "select": "media",
+                    "label": "Dokument-Link"
+                  }
+                },
+                "document_link_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Dokument-Link-Title"
+                  }
+                },
+                "document_link_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Dokument-Link-Text"
+                  }
+                }
+              }
+            },
+            "einleitung_m036": {
+              "type": "Slice",
+              "fieldset": "Einleitung M036",
+              "description": "Headline, Text, optionales Bild (Cassini-AG)",
+              "icon": "sort",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "dachzeile": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Dachzeile"
+                  }
+                },
+                "bild": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 1260,
+                      "height": 705
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 1152,
+                      "height": 640
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "button_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button text"
+                  }
+                },
+                "button_url": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Button url",
+                    "allowTargetBlank": true,
+                    "select": null
+                  }
+                },
+                "button_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button title"
+                  }
+                },
+                "ubergangsanimation": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "aus", "ein" ],
+                    "default_value": "aus",
+                    "label": "Übergangsanimation"
+                  }
+                },
+                "video_url_desktop": {
+                  "type": "Link",
+                  "config": {
+                    "select": "media",
+                    "label": "Video URL Desktop"
+                  }
+                },
+                "video_url_mobile": {
+                  "type": "Link",
+                  "config": {
+                    "select": "media",
+                    "label": "Video URL Mobile (Optional)"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "stellen-ubersicht_m027": {
+              "type": "Slice",
+              "fieldset": "Stellen-Übersicht M027",
+              "description": "Liste von Stellenanzeigen mit Filterung ",
+              "icon": "view_list",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "label_field": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter Label Beratungsfeld",
+                    "placeholder": "Falls leer: Beratungsfeld wählen:"
+                  }
+                },
+                "filter_2_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter 2 Label",
+                    "placeholder": "Falls leer wird der Filter nicht angezeigt"
+                  }
+                },
+                "filter_3_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter 3 Label",
+                    "placeholder": "Falls leer wird der Filter nicht angezeigt"
+                  }
+                },
+                "filter_4_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter 4 Label",
+                    "placeholder": "Falls leer wird der Filter nicht angezeigt"
+                  }
+                },
+                "filter_5_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter 5 Label",
+                    "placeholder": "Falls leer wird der Filter nicht angezeigt"
+                  }
+                },
+                "filter_6_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter 6 Label",
+                    "placeholder": "Falls leer wird der Filter nicht angezeigt"
+                  }
+                },
+                "filter_7_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter 7 Label",
+                    "placeholder": "Falls leer wird der Filter nicht angezeigt"
+                  }
+                },
+                "filter_reset": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Filter zurücksetzen",
+                    "placeholder": "Wenn leer: Alles anzeigen"
+                  }
+                },
+                "info_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Info Text",
+                    "placeholder": "Falls leer: Es konnten leider keine freien Stellen gefunden werden."
+                  }
+                }
+              },
+              "repeat": {
+                "field": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "tag" ],
+                    "label": "Beratungsfeld"
+                  }
+                },
+                "filter_2": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "tag" ],
+                    "label": "Filter 2"
+                  }
+                },
+                "filter_3": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "tag" ],
+                    "label": "Filter 3"
+                  }
+                },
+                "filter_4": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "tag" ],
+                    "label": "Filter 4"
+                  }
+                },
+                "filter_5": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "tag" ],
+                    "label": "Filter 5"
+                  }
+                },
+                "filter_6": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "tag" ],
+                    "label": "Filter 6"
+                  }
+                },
+                "filter_7": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "tag" ],
+                    "label": "Filter 7"
+                  }
+                }
+              }
+            },
+            "teilen-buttons_m026": {
+              "type": "Slice",
+              "fieldset": "Teilen-Buttons M026",
+              "description": "Hinzufügen von \"teilen\"-Buttons",
+              "icon": "share",
+              "display": "list",
+              "non-repeat": {
+                "einleitungstext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Einleitungstext",
+                    "placeholder": "wenn leer, wird verwendet - Seite teilen"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "artikel_teaser_slider_m035": {
+              "type": "Slice",
+              "fieldset": "Artikel Teaser Slider M035",
+              "description": "Slider für Artikel-, Interview- und Whitepaper-Teaser",
+              "icon": "view_carousel",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "kapitel": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "anzeigen", "verbergen" ],
+                    "default_value": "anzeigen",
+                    "label": "Kapitel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                }
+              },
+              "repeat": {
+                "slice_teaser_bild_16_9": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 580,
+                      "height": 326
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 580,
+                      "height": 326
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Teaser-Bild-16-9"
+                  }
+                },
+                "slice_teaser_dachzeile": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Dachzeile"
+                  }
+                },
+                "slice_teaser_uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "slice_teaser_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph",
+                    "label": "Text"
+                  }
+                },
+                "slice_teaser_bild_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Teaser-Bild titel"
+                  }
+                },
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "article", "interview", "whitepaper", "zita", "fact_snack", "video", "podcast" ],
+                    "label": "Zielseite"
+                  }
+                },
+                "document_link": {
+                  "type": "Link",
+                  "config": {
+                    "select": "media",
+                    "label": "Dokumenten Link",
+                    "placeholder": "Für Whitepaper-Artikel"
+                  }
+                },
+                "foreign_content_link": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "Link zu Fremdinhalten",
+                    "select": null
+                  }
+                }
+              }
+            },
+            "foreign_content_m000": {
+              "type": "Slice",
+              "fieldset": "Foreign Content M000",
+              "description": "Inhalte von anderen Auftritten übernehmen - (Cassini Ag)",
+              "icon": "call_split",
+              "display": "list",
+              "non-repeat": {
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "xing_events": {
+              "type": "Slice",
+              "fieldset": "XING Events",
+              "description": "Event Checkout",
+              "icon": "add_shopping_cart",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Titel"
+                  }
+                },
+                "xing_event_code": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Xing Event Code Schnipsel",
+                    "placeholder": "Diesen finden Sie unter Event bearbeiten > Verkaufskanäle > Ihre Website oder App > IFrame-Einstelölungen"
+                  }
+                },
+                "cta_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "CTA text",
+                    "placeholder": "z.B. Jetzt anmelden"
+                  }
+                },
+                "cta_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "CTA title",
+                    "placeholder": "z.B. hier starten Sie den Anmeldevorgang"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "soundcloud": {
+              "type": "Slice",
+              "fieldset": "Soundcloud",
+              "description": "Element zur Soundcloud-Integration",
+              "icon": "play_circle_filled",
+              "display": "list",
+              "non-repeat": {
+                "soundcloud_link": {
+                  "type": "Embed",
+                  "config": {
+                    "label": "Soundcloud Link"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "autor_m019": {
+              "type": "Slice",
+              "fieldset": "Autor M019",
+              "description": "Bild, Name, Position, Soziale Kanäle",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {
+                "einleitung": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Einleitung",
+                    "placeholder": "Wenn leer, wird verwendet - Artikel von"
+                  }
+                }
+              },
+              "repeat": {
+                "autor": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": [ "ansprechpartner", "autor" ],
+                    "label": "Autor",
+                    "placeholder": "Auswahl aus der Ansprechpartner- oder Autor-Datenbank"
+                  }
+                }
+              }
+            },
+            "event-banderole_m031": {
+              "type": "Slice",
+              "fieldset": "Event-Banderole M031",
+              "description": "Ort, Datum, Tickets",
+              "icon": "access_alarm",
+              "display": "list",
+              "non-repeat": {
+                "anmeldelink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Anmeldelink",
+                    "select": null
+                  }
+                },
+                "anmeldelink_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anmeldelink text"
+                  }
+                },
+                "anmeldelink_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anmeldelink title"
+                  }
+                },
+                "ort": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,strong,em,hyperlink",
+                    "allowTargetBlank": true,
+                    "label": "Ort"
+                  }
+                },
+                "datum": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,strong,em,hyperlink",
+                    "allowTargetBlank": true,
+                    "label": "Datum"
+                  }
+                },
+                "zusatzinformation": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,strong,em,hyperlink",
+                    "allowTargetBlank": true,
+                    "label": "Zusatzinformation"
+                  }
+                },
+                "calendar_event_name": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Calendar Event Name"
+                  }
+                },
+                "calendar_start_date": {
+                  "type": "Timestamp",
+                  "config": {
+                    "label": "Calendar Start Date"
+                  }
+                },
+                "calendar_end_date": {
+                  "type": "Timestamp",
+                  "config": {
+                    "label": "Calendar End Date"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "jobs_formular_-_m021": {
+              "type": "Slice",
+              "fieldset": "Jobs Formular - M021",
+              "description": "Maatoo Formular Stellenangebot - (Cassini AG)",
+              "icon": "accessibility",
+              "display": "list",
+              "non-repeat": {
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2",
+                    "label": "Überschrift",
+                    "placeholder": "wenn leer, wird verwendet - Bewerbung"
+                  }
+                },
+                "job_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Job ID",
+                    "placeholder": "z.B. Manager-fuer-Beispielinhalte"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "cookie_declaration": {
+              "type": "Slice",
+              "fieldset": "Cookie Declaration",
+              "description": "Ein leeres Element für dynamisch generierte Cookie-Deklaration",
+              "icon": "assignment",
+              "display": "list",
+              "non-repeat": { },
+              "repeat": { }
+            },
+            "cta-button_standalone": {
+              "type": "Slice",
+              "fieldset": "CTA-Button Standalone",
+              "description": "Link zu einer internen oder externen Seite",
+              "icon": "keyboard_tab",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "position": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "links", "zentriert", "rechts" ],
+                    "default_value": "links",
+                    "label": "Position",
+                    "placeholder": "Button-Ausrichtung auswählen"
+                  }
+                },
+                "farbe": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "primary", "secondary" ],
+                    "default_value": "primary",
+                    "label": "Farbe",
+                    "placeholder": "Farbe auswählen"
+                  }
+                },
+                "button_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button text"
+                  }
+                },
+                "button_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button title"
+                  }
+                },
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite"
+                  }
+                },
+                "externe_url": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "Externe URL",
+                    "select": null
+                  }
+                },
+                "ankerlink_ziel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Ziel",
+                    "placeholder": "z.b. #ankerlink_name"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "issuu_-_cassini": {
+              "type": "Slice",
+              "fieldset": "Issuu - Cassini",
+              "description": "Magazin-Funktion direkt auf der Seite",
+              "icon": "picture_as_pdf",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "snippet": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Snippet"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "kuchendiagramm": {
+              "type": "Slice",
+              "fieldset": "Kuchendiagramm",
+              "description": "Kuchdiagramm Slice ",
+              "icon": "donut_small",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Titel"
+                  }
+                },
+                "grey_background": {
+                  "type": "Boolean",
+                  "config": {
+                    "default_value": false,
+                    "label": "Grauen Hintergrund"
+                  }
+                }
+              },
+              "repeat": {
+                "name": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title"
+                  }
+                },
+                "value": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Wert"
+                  }
+                },
+                "color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Individuelle Farbe (optional)"
+                  }
+                }
+              }
+            },
+            "teaser_zaehlend": {
+              "type": "Slice",
+              "fieldset": "Teaser Zaehlend",
+              "description": "Teaser mit hochlaufenden Zahlen",
+              "icon": "exposure_plus_1",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Titel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,o-list-item",
+                    "label": "Text"
+                  }
+                }
+              },
+              "repeat": {
+                "counter_value": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Zähler Wert"
+                  }
+                },
+                "counter_unit": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Zähler Einheit",
+                    "placeholder": "standardmäßig ein Prozentzeichen, kann aber auch Stück, km etc. sein"
+                  }
+                },
+                "color": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "Grün", "Schwarz", "Grau" ],
+                    "default_value": "Grün",
+                    "label": "Farbe"
+                  }
+                },
+                "color_custom": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Individuelle Farbe"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em",
+                    "label": "Text"
+                  }
+                },
+                "source": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Quelle"
+                  }
+                }
+              }
+            },
+            "cta_teaser": {
+              "type": "Slice",
+              "fieldset": "CTA Teaser",
+              "description": "CTA mit Text und Bild auf primary HG (Cassini)",
+              "icon": "add_alarm",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink titel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "textgrosse": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "gross", "standard", "klein" ],
+                    "default_value": "gross",
+                    "label": "Textgrösse"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,strong,em,hyperlink,image,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "button_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button text"
+                  }
+                },
+                "button_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button title"
+                  }
+                },
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite"
+                  }
+                },
+                "externe_url": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "Externe URL",
+                    "select": null
+                  }
+                },
+                "ankerlink_ziel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Ziel",
+                    "placeholder": "z.b. #ankerlink_name"
+                  }
+                },
+                "bild": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 600,
+                      "height": 805
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 320,
+                      "height": 595
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Bild"
+                  }
+                },
+                "bild_position": {
+                  "type": "Select",
+                  "config": {
+                    "options": [ "rechts", "links" ],
+                    "default_value": "rechts",
+                    "label": "Bild Position"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "hubspot_-_kontakt": {
+              "type": "Slice",
+              "fieldset": "Hubspot - Kontakt",
+              "description": "Hubspot Kontaktformular",
+              "icon": "contact_support",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Titel"
+                  }
+                },
+                "formid": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Hubspot Form ID"
+                  }
+                },
+                "portalid": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Hubspot Portal ID"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,strong,em,hyperlink,image,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                }
+              },
+              "repeat": { }
+            },
+            "testimonials": {
+              "type": "Slice",
+              "fieldset": "Testimonials",
+              "description": "Testimonials",
+              "icon": "contact_support",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Titel"
+                  }
+                },
+                "uberschrift": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2,heading3,heading4,heading5,heading6",
+                    "label": "Überschrift"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,strong,em,hyperlink,image,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                }
+              },
+              "repeat": {
+                "logo": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 400,
+                      "height": 400
+                    },
+                    "thumbnails": [ ],
+                    "label": "Logo"
+                  }
+                },
+                "logo_alt": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Logo alt"
+                  }
+                },
+                "zitat": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,heading3,heading4,strong,em,hyperlink,image,list-item,o-list-item",
+                    "allowTargetBlank": true,
+                    "label": "Text"
+                  }
+                },
+                "author": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Autor"
+                  }
+                }
+              }
+            },
+            "fullscreen_image": {
+              "type": "Slice",
+              "fieldset": "Fullscreen Image",
+              "description": "Fullscreen Image",
+              "icon": "image",
+              "display": "list",
+              "non-repeat": {
+                "ankerlink_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Ankerlink Titel"
+                  }
+                },
+                "bild": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 2880,
+                      "height": 1620
+                    },
+                    "thumbnails": [ {
+                      "name": "MD",
+                      "width": 1152,
+                      "height": 640
+                    }, {
+                      "name": "XS",
+                      "width": 863,
+                      "height": 480
+                    } ],
+                    "label": "Hintergrundbild"
+                  }
+                }
+              },
+              "repeat": { }
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "wenn leer, dann Meta title aus Global Config"
+        }
+      },
+      "seo_meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "wenn leer, dann Meta description aus Global Config"
+        }
+      },
+      "seo_meta_index": {
+        "type": "Select",
+        "config": {
+          "options": ["true", "false"],
+          "default_value": "true",
+          "label": "Meta index"
+        }
+      },
+      "seo_meta_follow": {
+        "type": "Select",
+        "config": {
+          "options": ["true", "false"],
+          "default_value": "true",
+          "label": "Meta follow"
+        }
+      },
+      "seo_meta_canonical": {
+        "type": "Text",
+        "config": {
+          "label": "Meta canonical"
+        }
+      }
+    },
+    "Social Sharing": {
+      "twitter_title": {
+        "type": "Text",
+        "config": {
+          "label": "Twitter title",
+          "placeholder": "wenn leer, dann Meta title aus SEO"
+        }
+      },
+      "twitter_description": {
+        "type": "Text",
+        "config": {
+          "label": "Twitter description",
+          "placeholder": "wenn leer, dann Meta description aus SEO"
+        }
+      },
+      "og_title": {
+        "type": "Text",
+        "config": {
+          "label": "OG title",
+          "placeholder": "wenn leer, dann Meta title aus SEO"
+        }
+      },
+      "og_description": {
+        "type": "Text",
+        "config": {
+          "label": "OG description",
+          "placeholder": "wenn leer, dann Meta description aus SEO"
+        }
+      },
+      "og_type": {
+        "type": "Text",
+        "config": {
+          "label": "OG type",
+          "placeholder": "wenn leer, dann article"
+        }
+      },
+      "og_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 1200,
+            "height": 627
+          },
+          "thumbnails": [],
+          "label": "OG image"
+        }
+      },
+      "og_locale": {
+        "type": "Text",
+        "config": {
+          "label": "OG locale",
+          "placeholder": "wenn leer, dann de_DE"
+        }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

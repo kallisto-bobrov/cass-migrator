@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders default Soundcloud embeded Audio snapshot 1`] = `
+<iframe
+  frameBorder="no"
+  scrolling="no"
+  src="https://w.soundcloud.com/player/?url=https://soundcloud.com/cassini-consulting/cmo-special-interview-mit-justina-rokita-cmo-von-moia&auto_play=false&buying=false&liking=false&download=false&sharing=false&show_artwork=false&show_comments=false&show_playcount=false&show_user=false&hide_related=false&visual=false&start_track=0&callback=true"
+  title="soundcloud_1"
+  width="100%"
+/>
+`;

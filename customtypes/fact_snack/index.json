@@ -1,0 +1,46 @@
+{
+  "id": "fact_snack",
+  "label": "fact snack",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display name"
+        }
+      }
+    },
+    "Content": {
+      "teaser_dachzeile": {
+        "type": "Text",
+        "config": {
+          "label": "Dachzeile",
+          "placeholder": "wenn leer, dann wird verwendet: Fact Snack"
+        }
+      },
+      "kennziffer": {
+        "type": "Text",
+        "config": {
+          "label": "Kennziffer"
+        }
+      },
+      "teaser_text": {
+        "type": "Text",
+        "config": {
+          "label": "Text"
+        }
+      },
+      "quelle": {
+        "type": "Text",
+        "config": {
+          "label": "Quelle"
+        }
+      }
+    }
+  },
+  "hash": "c1c2773b69f3f0e0506d514eda6f793b",
+  "status": true,
+  "format": "custom"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tag",
+  "label": "tag",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "tag": {
+        "type": "Text",
+        "config": {
+          "label": "tag",
+          "placeholder": "z.B. blockchain, digitale transformation etc."
+        }
+      }
+    }
+  },
+  "hash": "db63be8dd6b981a04a2da1ca48a89ab4",
+  "status": true,
+  "format": "custom"
+}

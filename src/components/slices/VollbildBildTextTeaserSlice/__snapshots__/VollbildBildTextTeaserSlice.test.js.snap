@@ -1,0 +1,2011 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VollbildBildTextTeaserSlice snapshots default theme 1`] = `
+.c0 {
+  $position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.c1 {
+  width: 100%;
+  $position: relative;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.c18 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c18 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c18 svg:first-of-type {
+  right: 0;
+}
+
+.c18 svg:last-of-type {
+  right: 25px;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c15 {
+  color: #000000;
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c15 strong {
+  font-family: "GeomanistMedium",Arial,sans-serif;
+}
+
+.c15 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#2CC700 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c15 h3,
+.c15 h4 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c15 ul,
+.c15 ol {
+  margin: 20px 6px;
+}
+
+.c15 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c15 ul li {
+  padding-left: 15px;
+}
+
+.c15 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c15 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c15 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c15 p + p,
+.c15 p + h4,
+.c15 p + h3 {
+  margin-top: 40px;
+}
+
+.c15 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c15 a:hover {
+  opacity: .3;
+}
+
+.c16 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c17 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c17 > * + * {
+  margin-left: 15px;
+}
+
+.c8 {
+  color: #FFFFFF;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-weight: 700;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-bottom: 2px;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  border-bottom: 5px solid #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.c9 {
+  font-size: 25px;
+}
+
+.c10 {
+  font-size: 12px;
+  line-height: 19px;
+  margin: 0 3px;
+}
+
+.c12 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: normal;
+}
+
+.c6 {
+  background: #2CC700;
+  padding: 35px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c7 {
+  margin-bottom: 25px;
+}
+
+.c11 {
+  color: #FFFFFF;
+}
+
+.c3 {
+  width: 370px;
+}
+
+.c13 {
+  background: #2CC700;
+  padding: 35px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c14 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4 {
+  display: block;
+}
+
+.c4 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:992px) {
+  .c2 {
+    $position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c2 {
+    $position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (max-width:575px) {
+  .c2 {
+    $position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    height: 100vh;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c0 {
+    height: auto;
+  }
+}
+
+@media (max-width:575px) {
+  .c0 {
+    height: auto;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    $position: absolute;
+    height: 100vh;
+  }
+
+  .c1 img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c1 {
+    $position: relative;
+    height: auto;
+  }
+
+  .c1 img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width:575px) {
+  .c1 {
+    $position: relative;
+    height: auto;
+  }
+
+  .c1 img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width:767px) {
+  .c15 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c15 h3,
+  .c15 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c15 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c17 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    height: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c6 {
+    width: 40%;
+  }
+}
+
+@media (max-width:575px) {
+  .c6 {
+    padding: 40px;
+  }
+}
+
+@media (max-width:991px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+@media (max-width:991px) {
+  .c3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width:768px) {
+  .c13 {
+    height: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c13 {
+    width: 40%;
+  }
+}
+
+@media (max-width:575px) {
+  .c13 {
+    padding: 40px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c13 {
+    width: 60%;
+  }
+}
+
+@media (max-width:991px) {
+  .c13 {
+    min-height: 0;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c4 > div {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+<div
+  id="vbtt-01"
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          srcSet="https://cassini.cdn.prismic.io/cassini/96a283c3f00779155ae784c666fb5ca7b6343ef6_20170629171641_8d7e9k_full.jpg"
+        />
+        <source
+          media="(min-width: 576px) and (max-width: 991px)"
+          srcSet="https://cassini.cdn.prismic.io/cassini/9ee3215995f3723b56ae943e96f3bf7852883e0e_20170629171641_8d7e9k_full.jpg"
+        />
+        <source
+          media="(max-width: 575px)"
+          srcSet="https://cassini.cdn.prismic.io/cassini/fe36e96fa19736b85ea8e9adefa28652494a7a09_20170629171641_8d7e9k_full.jpg"
+        />
+        <img
+          alt={null}
+          src="https://cassini.cdn.prismic.io/cassini/96a283c3f00779155ae784c666fb5ca7b6343ef6_20170629171641_8d7e9k_full.jpg"
+        />
+      </picture>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <a
+          className="c4 c5"
+          href=""
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          rel={null}
+          title="folgen Sie mir!"
+        >
+          <div>
+            <div
+              className="c6"
+            >
+              <div
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  1
+                </span>
+                <span
+                  className="c10"
+                >
+                  von
+                </span>
+                <span
+                  className="c9"
+                >
+                  3
+                </span>
+              </div>
+              <h2
+                className="c11 c12"
+              >
+                Menschen bei Cassini
+              </h2>
+            </div>
+            <div
+              className="c13"
+            >
+              <div
+                className="c14 c15"
+              >
+                <p>
+                  Geschäfts- und ganze Kernprozesse werden heute digitalisiert. Die wachsende Bedeutung digitaler Systeme schafft attraktive sowie hochsensible. Die wachsende Bedeutung digitaler Systeme schafft attraktive sowie hochsensible.
+                </p>
+              </div>
+              <div
+                className="c16"
+              >
+                <div
+                  className="c17"
+                >
+                  <div>
+                    Mehr erfahren
+                  </div>
+                  <div
+                    className="c18"
+                  >
+                    <svg
+                      height="8px"
+                      version="1.1"
+                      viewBox="0 0 18 8"
+                      width="18px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="none"
+                        fillRule="evenodd"
+                        id="Symbols"
+                        stroke="none"
+                        strokeWidth="1"
+                      >
+                        <g
+                          fill="currentColor"
+                          id="m003---Footer_XL"
+                          transform="translate(-382.000000, -601.000000)"
+                        >
+                          <g
+                            id="Group-14"
+                            transform="translate(300.000000, 422.000000)"
+                          >
+                            <g
+                              id="Group-Copy-5"
+                              transform="translate(0.000000, 165.000000)"
+                            >
+                              <polygon
+                                id="Fill-1"
+                                points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                                transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                    <svg
+                      height="8px"
+                      version="1.1"
+                      viewBox="0 0 18 8"
+                      width="18px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="none"
+                        fillRule="evenodd"
+                        id="Symbols"
+                        stroke="none"
+                        strokeWidth="1"
+                      >
+                        <g
+                          fill="currentColor"
+                          id="m003---Footer_XL"
+                          transform="translate(-382.000000, -601.000000)"
+                        >
+                          <g
+                            id="Group-14"
+                            transform="translate(300.000000, 422.000000)"
+                          >
+                            <g
+                              id="Group-Copy-5"
+                              transform="translate(0.000000, 165.000000)"
+                            >
+                              <polygon
+                                id="Fill-1"
+                                points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                                transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`VollbildBildTextTeaserSlice snapshots second theme 1`] = `
+.c0 {
+  $position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.c1 {
+  width: 100%;
+  $position: relative;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.c18 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c18 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c18 svg:first-of-type {
+  right: 0;
+}
+
+.c18 svg:last-of-type {
+  right: 25px;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c15 {
+  color: #000000;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c15 strong {
+  font-family: "Lora-Bold",serif;
+}
+
+.c15 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#FF8135 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c15 h3,
+.c15 h4 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c15 ul,
+.c15 ol {
+  margin: 20px 6px;
+}
+
+.c15 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c15 ul li {
+  padding-left: 15px;
+}
+
+.c15 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c15 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c15 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "Lora-Bold",serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c15 p + p,
+.c15 p + h4,
+.c15 p + h3 {
+  margin-top: 40px;
+}
+
+.c15 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c15 a:hover {
+  opacity: .3;
+}
+
+.c16 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c17 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c17 > * + * {
+  margin-left: 15px;
+}
+
+.c8 {
+  color: #FFFFFF;
+  font-family: "Lora-Bold",serif;
+  font-weight: 700;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-bottom: 2px;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  border-bottom: 5px solid #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.c9 {
+  font-size: 25px;
+}
+
+.c10 {
+  font-size: 12px;
+  line-height: 19px;
+  margin: 0 3px;
+}
+
+.c12 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+}
+
+.c6 {
+  background: #FF8135;
+  padding: 35px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c7 {
+  margin-bottom: 25px;
+}
+
+.c11 {
+  color: #FFFFFF;
+}
+
+.c3 {
+  width: 370px;
+}
+
+.c13 {
+  background: #FF8135;
+  padding: 35px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c14 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4 {
+  display: block;
+}
+
+.c4 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:992px) {
+  .c2 {
+    $position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c2 {
+    $position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (max-width:575px) {
+  .c2 {
+    $position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    height: 100vh;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c0 {
+    height: auto;
+  }
+}
+
+@media (max-width:575px) {
+  .c0 {
+    height: auto;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    $position: absolute;
+    height: 100vh;
+  }
+
+  .c1 img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c1 {
+    $position: relative;
+    height: auto;
+  }
+
+  .c1 img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width:575px) {
+  .c1 {
+    $position: relative;
+    height: auto;
+  }
+
+  .c1 img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width:767px) {
+  .c15 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c15 h3,
+  .c15 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c15 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c17 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    height: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c6 {
+    width: 40%;
+  }
+}
+
+@media (max-width:575px) {
+  .c6 {
+    padding: 40px;
+  }
+}
+
+@media (max-width:991px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+@media (max-width:991px) {
+  .c3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width:768px) {
+  .c13 {
+    height: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c13 {
+    width: 40%;
+  }
+}
+
+@media (max-width:575px) {
+  .c13 {
+    padding: 40px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c13 {
+    width: 60%;
+  }
+}
+
+@media (max-width:991px) {
+  .c13 {
+    min-height: 0;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c4 > div {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+<div
+  id="vbtt-01"
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          srcSet="https://cassini.cdn.prismic.io/cassini/96a283c3f00779155ae784c666fb5ca7b6343ef6_20170629171641_8d7e9k_full.jpg"
+        />
+        <source
+          media="(min-width: 576px) and (max-width: 991px)"
+          srcSet="https://cassini.cdn.prismic.io/cassini/9ee3215995f3723b56ae943e96f3bf7852883e0e_20170629171641_8d7e9k_full.jpg"
+        />
+        <source
+          media="(max-width: 575px)"
+          srcSet="https://cassini.cdn.prismic.io/cassini/fe36e96fa19736b85ea8e9adefa28652494a7a09_20170629171641_8d7e9k_full.jpg"
+        />
+        <img
+          alt={null}
+          src="https://cassini.cdn.prismic.io/cassini/96a283c3f00779155ae784c666fb5ca7b6343ef6_20170629171641_8d7e9k_full.jpg"
+        />
+      </picture>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <a
+          className="c4 c5"
+          href=""
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          rel={null}
+          title="folgen Sie mir!"
+        >
+          <div>
+            <div
+              className="c6"
+            >
+              <div
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  1
+                </span>
+                <span
+                  className="c10"
+                >
+                  von
+                </span>
+                <span
+                  className="c9"
+                >
+                  3
+                </span>
+              </div>
+              <h2
+                className="c11 c12"
+              >
+                Menschen bei Cassini
+              </h2>
+            </div>
+            <div
+              className="c13"
+            >
+              <div
+                className="c14 c15"
+              >
+                <p>
+                  Geschäfts- und ganze Kernprozesse werden heute digitalisiert. Die wachsende Bedeutung digitaler Systeme schafft attraktive sowie hochsensible. Die wachsende Bedeutung digitaler Systeme schafft attraktive sowie hochsensible.
+                </p>
+              </div>
+              <div
+                className="c16"
+              >
+                <div
+                  className="c17"
+                >
+                  <div>
+                    Mehr erfahren
+                  </div>
+                  <div
+                    className="c18"
+                  >
+                    <svg
+                      height="8px"
+                      version="1.1"
+                      viewBox="0 0 18 8"
+                      width="18px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="none"
+                        fillRule="evenodd"
+                        id="Symbols"
+                        stroke="none"
+                        strokeWidth="1"
+                      >
+                        <g
+                          fill="currentColor"
+                          id="m003---Footer_XL"
+                          transform="translate(-382.000000, -601.000000)"
+                        >
+                          <g
+                            id="Group-14"
+                            transform="translate(300.000000, 422.000000)"
+                          >
+                            <g
+                              id="Group-Copy-5"
+                              transform="translate(0.000000, 165.000000)"
+                            >
+                              <polygon
+                                id="Fill-1"
+                                points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                                transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                    <svg
+                      height="8px"
+                      version="1.1"
+                      viewBox="0 0 18 8"
+                      width="18px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="none"
+                        fillRule="evenodd"
+                        id="Symbols"
+                        stroke="none"
+                        strokeWidth="1"
+                      >
+                        <g
+                          fill="currentColor"
+                          id="m003---Footer_XL"
+                          transform="translate(-382.000000, -601.000000)"
+                        >
+                          <g
+                            id="Group-14"
+                            transform="translate(300.000000, 422.000000)"
+                          >
+                            <g
+                              id="Group-Copy-5"
+                              transform="translate(0.000000, 165.000000)"
+                            >
+                              <polygon
+                                id="Fill-1"
+                                points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                                transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`VollbildBildTextTeaserSlice snapshots third theme 1`] = `
+.c0 {
+  $position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.c1 {
+  width: 100%;
+  $position: relative;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.c18 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c18 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c18 svg:first-of-type {
+  right: 0;
+}
+
+.c18 svg:last-of-type {
+  right: 25px;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c15 {
+  color: #000000;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c15 strong {
+  font-family: "Patua One",cursive;
+}
+
+.c15 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#009999 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c15 h3,
+.c15 h4 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c15 ul,
+.c15 ol {
+  margin: 20px 6px;
+}
+
+.c15 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c15 ul li {
+  padding-left: 15px;
+}
+
+.c15 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c15 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c15 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "Patua One",cursive;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c15 p + p,
+.c15 p + h4,
+.c15 p + h3 {
+  margin-top: 40px;
+}
+
+.c15 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c15 a:hover {
+  opacity: .3;
+}
+
+.c16 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c17 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c17 > * + * {
+  margin-left: 15px;
+}
+
+.c8 {
+  color: #FFFFFF;
+  font-family: "Patua One",cursive;
+  font-weight: 700;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-bottom: 2px;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  border-bottom: 5px solid #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.c9 {
+  font-size: 25px;
+}
+
+.c10 {
+  font-size: 12px;
+  line-height: 19px;
+  margin: 0 3px;
+}
+
+.c12 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: normal;
+}
+
+.c6 {
+  background: #009999;
+  padding: 35px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.c7 {
+  margin-bottom: 25px;
+}
+
+.c11 {
+  color: #FFFFFF;
+}
+
+.c3 {
+  width: 370px;
+}
+
+.c13 {
+  background: #009999;
+  padding: 35px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c14 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4 {
+  display: block;
+}
+
+.c4 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:992px) {
+  .c2 {
+    $position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c2 {
+    $position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (max-width:575px) {
+  .c2 {
+    $position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    height: 100vh;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c0 {
+    height: auto;
+  }
+}
+
+@media (max-width:575px) {
+  .c0 {
+    height: auto;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    $position: absolute;
+    height: 100vh;
+  }
+
+  .c1 img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c1 {
+    $position: relative;
+    height: auto;
+  }
+
+  .c1 img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width:575px) {
+  .c1 {
+    $position: relative;
+    height: auto;
+  }
+
+  .c1 img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width:767px) {
+  .c15 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c15 h3,
+  .c15 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c15 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c17 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    height: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c6 {
+    width: 40%;
+  }
+}
+
+@media (max-width:575px) {
+  .c6 {
+    padding: 40px;
+  }
+}
+
+@media (max-width:991px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+@media (max-width:991px) {
+  .c3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width:768px) {
+  .c13 {
+    height: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c13 {
+    width: 40%;
+  }
+}
+
+@media (max-width:575px) {
+  .c13 {
+    padding: 40px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c13 {
+    width: 60%;
+  }
+}
+
+@media (max-width:991px) {
+  .c13 {
+    min-height: 0;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c4 > div {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+<div
+  id="vbtt-01"
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          srcSet="https://cassini.cdn.prismic.io/cassini/96a283c3f00779155ae784c666fb5ca7b6343ef6_20170629171641_8d7e9k_full.jpg"
+        />
+        <source
+          media="(min-width: 576px) and (max-width: 991px)"
+          srcSet="https://cassini.cdn.prismic.io/cassini/9ee3215995f3723b56ae943e96f3bf7852883e0e_20170629171641_8d7e9k_full.jpg"
+        />
+        <source
+          media="(max-width: 575px)"
+          srcSet="https://cassini.cdn.prismic.io/cassini/fe36e96fa19736b85ea8e9adefa28652494a7a09_20170629171641_8d7e9k_full.jpg"
+        />
+        <img
+          alt={null}
+          src="https://cassini.cdn.prismic.io/cassini/96a283c3f00779155ae784c666fb5ca7b6343ef6_20170629171641_8d7e9k_full.jpg"
+        />
+      </picture>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <a
+          className="c4 c5"
+          href=""
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          rel={null}
+          title="folgen Sie mir!"
+        >
+          <div>
+            <div
+              className="c6"
+            >
+              <div
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  1
+                </span>
+                <span
+                  className="c10"
+                >
+                  von
+                </span>
+                <span
+                  className="c9"
+                >
+                  3
+                </span>
+              </div>
+              <h2
+                className="c11 c12"
+              >
+                Menschen bei Cassini
+              </h2>
+            </div>
+            <div
+              className="c13"
+            >
+              <div
+                className="c14 c15"
+              >
+                <p>
+                  Geschäfts- und ganze Kernprozesse werden heute digitalisiert. Die wachsende Bedeutung digitaler Systeme schafft attraktive sowie hochsensible. Die wachsende Bedeutung digitaler Systeme schafft attraktive sowie hochsensible.
+                </p>
+              </div>
+              <div
+                className="c16"
+              >
+                <div
+                  className="c17"
+                >
+                  <div>
+                    Mehr erfahren
+                  </div>
+                  <div
+                    className="c18"
+                  >
+                    <svg
+                      height="8px"
+                      version="1.1"
+                      viewBox="0 0 18 8"
+                      width="18px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="none"
+                        fillRule="evenodd"
+                        id="Symbols"
+                        stroke="none"
+                        strokeWidth="1"
+                      >
+                        <g
+                          fill="currentColor"
+                          id="m003---Footer_XL"
+                          transform="translate(-382.000000, -601.000000)"
+                        >
+                          <g
+                            id="Group-14"
+                            transform="translate(300.000000, 422.000000)"
+                          >
+                            <g
+                              id="Group-Copy-5"
+                              transform="translate(0.000000, 165.000000)"
+                            >
+                              <polygon
+                                id="Fill-1"
+                                points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                                transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                    <svg
+                      height="8px"
+                      version="1.1"
+                      viewBox="0 0 18 8"
+                      width="18px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="none"
+                        fillRule="evenodd"
+                        id="Symbols"
+                        stroke="none"
+                        strokeWidth="1"
+                      >
+                        <g
+                          fill="currentColor"
+                          id="m003---Footer_XL"
+                          transform="translate(-382.000000, -601.000000)"
+                        >
+                          <g
+                            id="Group-14"
+                            transform="translate(300.000000, 422.000000)"
+                          >
+                            <g
+                              id="Group-Copy-5"
+                              transform="translate(0.000000, 165.000000)"
+                            >
+                              <polygon
+                                id="Fill-1"
+                                points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                                transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

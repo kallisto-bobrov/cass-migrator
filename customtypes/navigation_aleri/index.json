@@ -1,0 +1,638 @@
+{
+  "id": "navigation_aleri",
+  "label": "navigation_aleri",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid"
+        }
+      },
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "display name"
+        }
+      }
+    },
+    "Why": {
+      "bereichsuberschrift1": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading2,heading3,heading4,heading5,strong,em",
+          "allowTargetBlank": true,
+          "label": "Bereichsüberschrift",
+          "placeholder": "z.B. [why]"
+        }
+      },
+      "hub-seiten-tag1": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "label": "HUB-Seiten-Tag",
+          "placeholder": "hier seiten-tags-aleri Tag eintragen"
+        }
+      },
+      "body1": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {
+            "nav_item": [],
+            "default_teaser": []
+          },
+          "choices": {
+            "nav_item": {
+              "type": "Slice",
+              "fieldset": "Nav Link",
+              "description": "Nav Link (Aleri)",
+              "icon": "reorder",
+              "display": "list",
+              "non-repeat": {
+                "url": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "url",
+                    "select": null
+                  }
+                },
+                "text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Text"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "default_teaser": {
+              "type": "Slice",
+              "fieldset": "Default Teaser",
+              "description": "Default Teaser in der Nav (Aleri)",
+              "icon": "view_column",
+              "display": "list",
+              "non-repeat": {
+                "should_filter": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": true,
+                    "label": "Abhängig vom Filter?"
+                  }
+                },
+                "show_pages": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": true,
+                    "label": "Nur Pages?"
+                  }
+                },
+                "show_artikel": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Artikel?"
+                  }
+                },
+                "show_cases": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Cases?"
+                  }
+                },
+                "show_jobs": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Jobs?"
+                  }
+                }
+              },
+              "repeat": {
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "How": {
+      "bereichsuberschrift2": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading2,heading3,heading4,heading5,strong,em",
+          "allowTargetBlank": true,
+          "label": "Bereichsüberschrift",
+          "placeholder": "z.B. [how]"
+        }
+      },
+      "hub-seiten-tag2": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "label": "HUB-Seiten-Tag",
+          "placeholder": "hier seiten-tags-aleri Tag eintragen"
+        }
+      },
+      "body2": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {
+            "nav_item": [],
+            "default_teaser": []
+          },
+          "choices": {
+            "nav_item": {
+              "type": "Slice",
+              "fieldset": "Nav Link",
+              "description": "Nav Link (Aleri)",
+              "icon": "reorder",
+              "display": "list",
+              "non-repeat": {
+                "url": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "url",
+                    "select": null
+                  }
+                },
+                "text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Text"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "default_teaser": {
+              "type": "Slice",
+              "fieldset": "Default Teaser",
+              "description": "Default Teaser in der Nav (Aleri)",
+              "icon": "view_column",
+              "display": "list",
+              "non-repeat": {
+                "should_filter": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": true,
+                    "label": "Abhängig vom Filter?"
+                  }
+                },
+                "show_pages": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": true,
+                    "label": "Nur Pages?"
+                  }
+                },
+                "show_artikel": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Artikel?"
+                  }
+                },
+                "show_cases": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Cases?"
+                  }
+                },
+                "show_jobs": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Jobs?"
+                  }
+                }
+              },
+              "repeat": {
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "What": {
+      "bereichsuberschrift3": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading2,heading3,heading4,heading5,strong,em",
+          "allowTargetBlank": true,
+          "label": "Bereichsüberschrift",
+          "placeholder": "z.B. [what]"
+        }
+      },
+      "hub-seiten-tag3": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "label": "HUB-Seiten-Tag",
+          "placeholder": "hier seiten-tags-aleri Tag eintragen"
+        }
+      },
+      "body3": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {
+            "nav_item": [],
+            "default_teaser": []
+          },
+          "choices": {
+            "nav_item": {
+              "type": "Slice",
+              "fieldset": "Nav Link",
+              "description": "Nav Link (Aleri)",
+              "icon": "reorder",
+              "display": "list",
+              "non-repeat": {
+                "url": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "url",
+                    "select": null
+                  }
+                },
+                "text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Text"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "default_teaser": {
+              "type": "Slice",
+              "fieldset": "Default Teaser",
+              "description": "Default Teaser in der Nav (Aleri)",
+              "icon": "view_column",
+              "display": "list",
+              "non-repeat": {
+                "should_filter": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": true,
+                    "label": "Abhängig vom Filter?"
+                  }
+                },
+                "show_pages": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": true,
+                    "label": "Nur Pages?"
+                  }
+                },
+                "show_artikel": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Artikel?"
+                  }
+                },
+                "show_cases": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Cases?"
+                  }
+                },
+                "show_jobs": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Jobs?"
+                  }
+                }
+              },
+              "repeat": {
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Now": {
+      "bereichsuberschrift4": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading2,heading3,heading4,heading5,strong,em",
+          "allowTargetBlank": true,
+          "label": "Bereichsüberschrift",
+          "placeholder": "z.B. [now]"
+        }
+      },
+      "hub-seiten-tag4": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "label": "HUB-Seiten-Tag",
+          "placeholder": "hier seiten-tags-aleri Tag eintragen"
+        }
+      },
+      "body4": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {
+            "nav_item": [],
+            "default_teaser": []
+          },
+          "choices": {
+            "nav_item": {
+              "type": "Slice",
+              "fieldset": "Nav Link",
+              "description": "Nav Link (Aleri)",
+              "icon": "reorder",
+              "display": "list",
+              "non-repeat": {
+                "url": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "url",
+                    "select": null
+                  }
+                },
+                "text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Text"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "default_teaser": {
+              "type": "Slice",
+              "fieldset": "Default Teaser",
+              "description": "Default Teaser in der Nav (Aleri)",
+              "icon": "view_column",
+              "display": "list",
+              "non-repeat": {
+                "should_filter": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": true,
+                    "label": "Abhängig vom Filter?"
+                  }
+                },
+                "show_pages": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": true,
+                    "label": "Nur Pages?"
+                  }
+                },
+                "show_artikel": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Artikel?"
+                  }
+                },
+                "show_cases": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Cases?"
+                  }
+                },
+                "show_jobs": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "nein",
+                    "placeholder_true": "ja",
+                    "default_value": false,
+                    "label": "Nur Jobs?"
+                  }
+                }
+              },
+              "repeat": {
+                "zielseite": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "label": "Zielseite"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Filter": {
+      "filter_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Filter Text"
+        }
+      },
+      "filter_cta_url": {
+        "type": "Link",
+        "config": {
+          "allowTargetBlank": true,
+          "label": "Filter CTA url",
+          "select": null
+        }
+      },
+      "filter_cta_text": {
+        "type": "Text",
+        "config": {
+          "label": "Filter CTA Text"
+        }
+      },
+      "filter_cta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Filter CTA Title"
+        }
+      }
+    },
+    "Kontakt": {
+      "kontakt_uberschrift": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Kontakt Überschrift"
+        }
+      },
+      "kontakt_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Kontakt Text"
+        }
+      },
+      "footer_kontakt_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Footer Kontakt Text"
+        }
+      },
+      "kontakt_cta_url": {
+        "type": "Link",
+        "config": {
+          "allowTargetBlank": true,
+          "label": "Kontakt CTA url",
+          "select": null
+        }
+      },
+      "kontakt_cta_text": {
+        "type": "Text",
+        "config": {
+          "label": "Kontakt CTA Text"
+        }
+      },
+      "kontakt_cta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Kontakt CTA Title"
+        }
+      }
+    },
+    "MetaNav": {
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {},
+          "choices": {
+            "nav_link": {
+              "type": "Slice",
+              "fieldset": "Nav Link",
+              "description": "Nav Link (Aleri)",
+              "icon": "reorder",
+              "display": "list",
+              "non-repeat": {
+                "url": {
+                  "type": "Link",
+                  "config": {
+                    "allowTargetBlank": true,
+                    "label": "url",
+                    "select": null
+                  }
+                },
+                "text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Text"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title"
+                  }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "hash": "7c54cd30839fb974c4c6bf23f9f3e8e4",
+  "status": true,
+  "format": "custom"
+}

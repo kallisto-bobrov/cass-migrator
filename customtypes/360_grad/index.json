@@ -1,0 +1,92 @@
+{
+  "id": "360_grad",
+  "label": "360_grad_aleri",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "360_headline": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading2,heading3",
+          "label": "360 Headline"
+        }
+      },
+      "360_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "360 Text"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": null,
+          "choices": {
+            "360_section": {
+              "type": "Slice",
+              "fieldset": "360 Section",
+              "description": "Hier baust du eine 360° section",
+              "icon": "pie_chart_outlined",
+              "display": "list",
+              "non-repeat": {
+                "topic": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Kuchstück Thema",
+                    "placeholder": "z.B. Innovation, Betrieb"
+                  }
+                },
+                "color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Kuchenstück Farbe"
+                  }
+                },
+                "level_1_alias": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Level 1 Alias"
+                  }
+                },
+                "level_2_alias": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Level 2 Alias"
+                  }
+                },
+                "level_3_alias": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Level 3 Alias"
+                  }
+                }
+              },
+              "repeat": {
+                "level": {
+                  "type": "Select",
+                  "config": {
+                    "options": ["1", "2", "3"],
+                    "default_value": "1",
+                    "label": "Level"
+                  }
+                },
+                "teaser": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": ["page_aleri"],
+                    "label": "Teaser"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

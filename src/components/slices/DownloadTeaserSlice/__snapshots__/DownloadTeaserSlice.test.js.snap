@@ -1,0 +1,927 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders empty ThemeProvider snapshot 1`] = `
+.c0 {
+  padding-bottom: 100px;
+}
+
+.c6 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: normal;
+}
+
+.c18 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: normal;
+}
+
+.c13 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c8 {
+  color: #000000;
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c8 strong {
+  font-family: "GeomanistMedium",Arial,sans-serif;
+}
+
+.c8 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#2CC700 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c8 h3,
+.c8 h4 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c8 ul,
+.c8 ol {
+  margin: 20px 6px;
+}
+
+.c8 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c8 ul li {
+  padding-left: 15px;
+}
+
+.c8 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c8 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c8 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c8 p + p,
+.c8 p + h4,
+.c8 p + h3 {
+  margin-top: 40px;
+}
+
+.c8 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c8 a:hover {
+  opacity: .3;
+}
+
+.c9 {
+  $position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 20px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: -20px;
+  width: calc(100% + 40px);
+}
+
+.c4 {
+  margin: 20px;
+  margin-left: 8.3325%;
+  width: calc(66.66% - 40px);
+}
+
+.c7 {
+  margin: 20px;
+  margin-left: 20px;
+  width: calc(99.99% - 40px);
+}
+
+.c10 {
+  margin: 20px;
+  margin-left: 20px;
+  width: calc(33.33% - 40px);
+}
+
+.c2 {
+  $position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 20px;
+  padding-top: 50px;
+}
+
+.c5 {
+  margin-bottom: 16px;
+}
+
+.c25 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #2CC700;
+  padding: 10px 20px;
+  background: #313942;
+}
+
+.c25 > * + * {
+  margin-left: 15px;
+}
+
+.c25:hover {
+  color: #FFFFFF;
+}
+
+.c25:before {
+  content: '';
+  background: #32e100;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c25:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c25 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c25 > * + * {
+  margin-left: 20px;
+}
+
+.c25:before {
+  background: #47525f;
+}
+
+.c16 {
+  fill: currentColor;
+}
+
+.c22 {
+  fill: currentColor;
+}
+
+.c15 {
+  line-height: 0;
+}
+
+.c20 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c21 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c21 > * + * {
+  margin-left: 15px;
+}
+
+.c11 {
+  height: 100%;
+}
+
+.c12 {
+  background-color: #2CC700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 30px;
+  -webkit-transition: box-shadow .25s ease-out;
+  transition: box-shadow .25s ease-out;
+}
+
+.c12:hover {
+  box-shadow: -10px 10px 0 0 #000000;
+}
+
+.c12 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c17 {
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.c19 {
+  margin-bottom: 15px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  color: #000000;
+}
+
+.c14 {
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.c24 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+@media (max-width:575px) {
+  .c0 {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c18 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c8 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c8 h3,
+  .c8 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c8 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:1199px) {
+  .c9 {
+    max-width: 960px;
+  }
+}
+
+@media (max-width:991px) {
+  .c9 {
+    max-width: 720px;
+  }
+}
+
+@media (max-width:767px) {
+  .c9 {
+    max-width: 540px;
+  }
+}
+
+@media (max-width:1199px) {
+  .c4 {
+    margin-left: 8.3325%;
+    width: calc(66.66% - 40px);
+  }
+}
+
+@media (max-width:991px) {
+  .c4 {
+    margin-left: 20px;
+    width: calc(99.99% - 40px);
+  }
+}
+
+@media (max-width:767px) {
+  .c4 {
+    margin-left: 20px;
+    width: calc(99.99% - 40px);
+  }
+}
+
+@media (max-width:575px) {
+  .c4 {
+    margin-left: 20px;
+    width: calc(99.99% - 40px);
+  }
+}
+
+@media (max-width:1199px) {
+  .c7 {
+    margin-left: 20px;
+    width: calc(99.99% - 40px);
+  }
+}
+
+@media (max-width:991px) {
+  .c7 {
+    margin-left: 20px;
+    width: calc(99.99% - 40px);
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    margin-left: 20px;
+    width: calc(99.99% - 40px);
+  }
+}
+
+@media (max-width:575px) {
+  .c7 {
+    margin-left: 20px;
+    width: calc(99.99% - 40px);
+  }
+}
+
+@media (max-width:1199px) {
+  .c10 {
+    margin-left: 20px;
+    width: calc(33.33% - 40px);
+  }
+}
+
+@media (max-width:991px) {
+  .c10 {
+    margin-left: 20px;
+    width: calc(49.995% - 40px);
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    margin-left: 20px;
+    width: calc(49.995% - 40px);
+  }
+}
+
+@media (max-width:575px) {
+  .c10 {
+    margin-left: 20px;
+    width: calc(99.99% - 40px);
+  }
+}
+
+@media (max-width:575px) {
+  .c1 {
+    margin-top: 45px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width:1199px) {
+  .c2 {
+    max-width: 960px;
+  }
+}
+
+@media (max-width:991px) {
+  .c2 {
+    max-width: 720px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    max-width: 540px;
+  }
+}
+
+@media (max-width:991px) {
+  .c2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width:575px) {
+  .c2 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width:767px) {
+  .c25 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c21 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<div
+  className="c0"
+  id="Downloads"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <div
+          className="c4"
+        >
+          <h2
+            className="c5 c6"
+          >
+            Downloads
+          </h2>
+          <div
+            className="c3"
+          >
+            <div
+              className="TeaserIntro__ColStyled-sc-1el4p93-2 c7"
+            >
+              <div
+                className="c8"
+              >
+                <p>
+                  Lorem ipsum
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c9"
+  >
+    <div
+      className="c3"
+    >
+      <div
+        className="c10"
+      >
+        <div
+          className="c11"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <a
+            className="c12 c13"
+            href="https://cassini.cdn.prismic.io/cassini%2F7052ee55-00e1-4771-80d4-0eeec27ff001_whitepaper_test.pdf"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            rel="noreferrer noopener"
+            target="_blank"
+            title=""
+          >
+            <div>
+              <div
+                className="c14"
+              >
+                <div
+                  className="c15"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                >
+                  <svg
+                    className=""
+                    height="31px"
+                    viewBox="0 0 200 200"
+                    width="31px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      className="c16"
+                      d="M170.4 169.8c-3.2 0-5.7 2.6-5.7 5.8v12.9h-150v-88.1c0-3.2-2.6-5.8-5.7-5.8-3.2 0-5.7 2.6-5.7 5.8v93.9c0 3.2 2.6 5.8 5.7 5.8h161.5c3.2 0 5.7-2.6 5.7-5.8v-18.6c-.1-3.3-2.6-5.9-5.8-5.9zm-57.2-58v-.5c0-3.4-1.7-5-4.4-5h-4.9v10.5h4.9c2.7 0 4.4-1.6 4.4-5zm27.5 12.4v-12.9c0-3.4-1.7-5-4.4-5h-4.4v22.9h4.4c2.8 0 4.4-1.6 4.4-5z"
+                      stroke="#FFF"
+                      strokeWidth=".5"
+                    />
+                    <path
+                      className="c16"
+                      d="M191.1 79.9h-15V5.8c0-3.2-2.6-5.8-5.7-5.8h-102c-.2 0-.3 0-.5.1-.2 0-.3.1-.5.1h-.1c-.1 0-.2.1-.4.1 0 0-.1 0-.1.1-.3.1-.6.3-.9.5l-.1.1c-.1.1-.2.2-.3.2l-.1.1c-.1.1-.3.2-.4.4L4.8 63.3l-.4.4c-.1.1-.1.2-.2.3 0 .1-.1.1-.1.2-.1.1-.1.2-.2.4l-.1.1c-.1.1-.1.2-.2.4 0 0 0 .1-.1.1 0 .1-.1.2-.1.4 0 .1 0 .1-.1.2 0 .1-.1.2-.1.3v3.1c0 3.2 2.6 5.8 5.7 5.8H69c3.2 0 5.7-2.6 5.7-5.8V11.6h89.9V80H76.9c-3.2 0-5.7 2.6-5.7 5.8v63.9c0 3.2 2.6 5.8 5.7 5.8H191c3.2 0 5.7-2.6 5.7-5.8v-64c.1-3.2-2.5-5.8-5.6-5.8zM63.3 63.4H20.8l18.6-19 23.9-24.5v43.5zm32.9 70.2v-31.8c0-1.2 1.1-2.3 2.9-2.3h10.2c6.5 0 11.6 3.1 11.6 11.5v.3c0 8.4-5.3 11.6-12.1 11.6h-4.9v10.8c0 1.6-1.9 2.4-3.8 2.4-2-.1-3.9-.9-3.9-2.5zm28 .1v-31.8c0-1.2 1.3-2.3 3.4-2.3h8.7c6.8 0 12.1 3.2 12.1 11.8v12.9c0 8.6-5.3 11.8-12.1 11.8h-8.7c-2.1-.1-3.4-1.2-3.4-2.4zm49.6-27.4H161v8.4h7.4c1.5 0 2.3 1.4 2.3 3 0 1.3-.7 2.9-2.3 2.9H161v12.9c0 1.6-1.9 2.4-3.8 2.4s-3.8-.8-3.8-2.4v-31.7c0-1.6 1.7-2.4 3.4-2.4h17.1c1.6 0 2.3 1.7 2.3 3.3-.1 2-.9 3.6-2.4 3.6z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h3
+                className="c17 c18"
+              >
+                Kundennutzen des Dokuments in einem Satz lorem ipsum
+              </h3>
+              <div
+                className="c19 c8"
+              >
+                <p>
+                  Factsheet /  12,00 MB
+                </p>
+              </div>
+              <div
+                className="c20"
+              >
+                <div
+                  className="c21"
+                >
+                  <div>
+                    Jetzt downloaden
+                  </div>
+                  <div
+                    className="c15"
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <svg
+                      baseProfile="tiny"
+                      className=""
+                      height="13px"
+                      viewBox="0 0 200 200"
+                      width="13px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        className="c22"
+                        d="M90.4-.1h26.4v122.4l30.3-30.6 18.7 18.8-62.2 62.7-62.2-62.7 18.7-18.8 30.3 30.6V-.1zm-84.3 200v-23.5h188.2v23.5H6.1z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        className="c10"
+      >
+        <div
+          className="c11"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <a
+            className="c12 c13"
+            href="https://cassini.cdn.prismic.io/cassini%2F7052ee55-00e1-4771-80d4-0eeec27ff001_whitepaper_test.pdf"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            rel="noreferrer noopener"
+            target="_blank"
+            title="Jetzt downloaden"
+          >
+            <div>
+              <div
+                className="c14"
+              >
+                <div
+                  className="c15"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                >
+                  <svg
+                    className=""
+                    height="31px"
+                    viewBox="0 0 200 200"
+                    width="31px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      className="c16"
+                      d="M170.4 169.8c-3.2 0-5.7 2.6-5.7 5.8v12.9h-150v-88.1c0-3.2-2.6-5.8-5.7-5.8-3.2 0-5.7 2.6-5.7 5.8v93.9c0 3.2 2.6 5.8 5.7 5.8h161.5c3.2 0 5.7-2.6 5.7-5.8v-18.6c-.1-3.3-2.6-5.9-5.8-5.9zm-57.2-58v-.5c0-3.4-1.7-5-4.4-5h-4.9v10.5h4.9c2.7 0 4.4-1.6 4.4-5zm27.5 12.4v-12.9c0-3.4-1.7-5-4.4-5h-4.4v22.9h4.4c2.8 0 4.4-1.6 4.4-5z"
+                      stroke="#FFF"
+                      strokeWidth=".5"
+                    />
+                    <path
+                      className="c16"
+                      d="M191.1 79.9h-15V5.8c0-3.2-2.6-5.8-5.7-5.8h-102c-.2 0-.3 0-.5.1-.2 0-.3.1-.5.1h-.1c-.1 0-.2.1-.4.1 0 0-.1 0-.1.1-.3.1-.6.3-.9.5l-.1.1c-.1.1-.2.2-.3.2l-.1.1c-.1.1-.3.2-.4.4L4.8 63.3l-.4.4c-.1.1-.1.2-.2.3 0 .1-.1.1-.1.2-.1.1-.1.2-.2.4l-.1.1c-.1.1-.1.2-.2.4 0 0 0 .1-.1.1 0 .1-.1.2-.1.4 0 .1 0 .1-.1.2 0 .1-.1.2-.1.3v3.1c0 3.2 2.6 5.8 5.7 5.8H69c3.2 0 5.7-2.6 5.7-5.8V11.6h89.9V80H76.9c-3.2 0-5.7 2.6-5.7 5.8v63.9c0 3.2 2.6 5.8 5.7 5.8H191c3.2 0 5.7-2.6 5.7-5.8v-64c.1-3.2-2.5-5.8-5.6-5.8zM63.3 63.4H20.8l18.6-19 23.9-24.5v43.5zm32.9 70.2v-31.8c0-1.2 1.1-2.3 2.9-2.3h10.2c6.5 0 11.6 3.1 11.6 11.5v.3c0 8.4-5.3 11.6-12.1 11.6h-4.9v10.8c0 1.6-1.9 2.4-3.8 2.4-2-.1-3.9-.9-3.9-2.5zm28 .1v-31.8c0-1.2 1.3-2.3 3.4-2.3h8.7c6.8 0 12.1 3.2 12.1 11.8v12.9c0 8.6-5.3 11.8-12.1 11.8h-8.7c-2.1-.1-3.4-1.2-3.4-2.4zm49.6-27.4H161v8.4h7.4c1.5 0 2.3 1.4 2.3 3 0 1.3-.7 2.9-2.3 2.9H161v12.9c0 1.6-1.9 2.4-3.8 2.4s-3.8-.8-3.8-2.4v-31.7c0-1.6 1.7-2.4 3.4-2.4h17.1c1.6 0 2.3 1.7 2.3 3.3-.1 2-.9 3.6-2.4 3.6z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h3
+                className="c17 c18"
+              >
+                Kundennutzen des Dokuments in einem Satz lorem ipsuKundennutzen des Dokuments in einem Satz lorem ipsumm Kundennutzen des Dokuments in einem Satz lorem ipsum
+              </h3>
+              <div
+                className="c19 c8"
+              >
+                <p>
+                  Factsheet / MOV, 0,01 MB
+                </p>
+              </div>
+              <div
+                className="c20"
+              >
+                <div
+                  className="c21"
+                >
+                  <div>
+                    Jetzt downloaden
+                  </div>
+                  <div
+                    className="c15"
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <svg
+                      baseProfile="tiny"
+                      className=""
+                      height="13px"
+                      viewBox="0 0 200 200"
+                      width="13px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        className="c22"
+                        d="M90.4-.1h26.4v122.4l30.3-30.6 18.7 18.8-62.2 62.7-62.2-62.7 18.7-18.8 30.3 30.6V-.1zm-84.3 200v-23.5h188.2v23.5H6.1z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        className="c10"
+      >
+        <div
+          className="c11"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <a
+            className="c12 c13"
+            href="https://cassini.cdn.prismic.io/cassini%2F7052ee55-00e1-4771-80d4-0eeec27ff001_whitepaper_test.pdf"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            rel="noreferrer noopener"
+            target="_blank"
+            title="Jetzt downloaden"
+          >
+            <div>
+              <div
+                className="c14"
+              >
+                <div
+                  className="c15"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                >
+                  <svg
+                    className=""
+                    height="31px"
+                    viewBox="0 0 200 200"
+                    width="31px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      className="c16"
+                      d="M170.4 169.8c-3.2 0-5.7 2.6-5.7 5.8v12.9h-150v-88.1c0-3.2-2.6-5.8-5.7-5.8-3.2 0-5.7 2.6-5.7 5.8v93.9c0 3.2 2.6 5.8 5.7 5.8h161.5c3.2 0 5.7-2.6 5.7-5.8v-18.6c-.1-3.3-2.6-5.9-5.8-5.9zm-57.2-58v-.5c0-3.4-1.7-5-4.4-5h-4.9v10.5h4.9c2.7 0 4.4-1.6 4.4-5zm27.5 12.4v-12.9c0-3.4-1.7-5-4.4-5h-4.4v22.9h4.4c2.8 0 4.4-1.6 4.4-5z"
+                      stroke="#FFF"
+                      strokeWidth=".5"
+                    />
+                    <path
+                      className="c16"
+                      d="M191.1 79.9h-15V5.8c0-3.2-2.6-5.8-5.7-5.8h-102c-.2 0-.3 0-.5.1-.2 0-.3.1-.5.1h-.1c-.1 0-.2.1-.4.1 0 0-.1 0-.1.1-.3.1-.6.3-.9.5l-.1.1c-.1.1-.2.2-.3.2l-.1.1c-.1.1-.3.2-.4.4L4.8 63.3l-.4.4c-.1.1-.1.2-.2.3 0 .1-.1.1-.1.2-.1.1-.1.2-.2.4l-.1.1c-.1.1-.1.2-.2.4 0 0 0 .1-.1.1 0 .1-.1.2-.1.4 0 .1 0 .1-.1.2 0 .1-.1.2-.1.3v3.1c0 3.2 2.6 5.8 5.7 5.8H69c3.2 0 5.7-2.6 5.7-5.8V11.6h89.9V80H76.9c-3.2 0-5.7 2.6-5.7 5.8v63.9c0 3.2 2.6 5.8 5.7 5.8H191c3.2 0 5.7-2.6 5.7-5.8v-64c.1-3.2-2.5-5.8-5.6-5.8zM63.3 63.4H20.8l18.6-19 23.9-24.5v43.5zm32.9 70.2v-31.8c0-1.2 1.1-2.3 2.9-2.3h10.2c6.5 0 11.6 3.1 11.6 11.5v.3c0 8.4-5.3 11.6-12.1 11.6h-4.9v10.8c0 1.6-1.9 2.4-3.8 2.4-2-.1-3.9-.9-3.9-2.5zm28 .1v-31.8c0-1.2 1.3-2.3 3.4-2.3h8.7c6.8 0 12.1 3.2 12.1 11.8v12.9c0 8.6-5.3 11.8-12.1 11.8h-8.7c-2.1-.1-3.4-1.2-3.4-2.4zm49.6-27.4H161v8.4h7.4c1.5 0 2.3 1.4 2.3 3 0 1.3-.7 2.9-2.3 2.9H161v12.9c0 1.6-1.9 2.4-3.8 2.4s-3.8-.8-3.8-2.4v-31.7c0-1.6 1.7-2.4 3.4-2.4h17.1c1.6 0 2.3 1.7 2.3 3.3-.1 2-.9 3.6-2.4 3.6z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h3
+                className="c17 c18"
+              >
+                Kundennutzen des Dokuments in einem Satz lorem ipsum Kundennutzen des Dokuments in einem Satz lorem ipsum
+              </h3>
+              <div
+                className="c19 c8"
+              >
+                <p>
+                  Factsheet / PDF, 0,01 MB
+                </p>
+              </div>
+              <div
+                className="c20"
+              >
+                <div
+                  className="c21"
+                >
+                  <div>
+                    Jetzt downloaden
+                  </div>
+                  <div
+                    className="c15"
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <svg
+                      baseProfile="tiny"
+                      className=""
+                      height="13px"
+                      viewBox="0 0 200 200"
+                      width="13px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        className="c22"
+                        d="M90.4-.1h26.4v122.4l30.3-30.6 18.7 18.8-62.2 62.7-62.2-62.7 18.7-18.8 30.3 30.6V-.1zm-84.3 200v-23.5h188.2v23.5H6.1z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <div
+        className="c23 c7"
+      >
+        <button
+          className="c24 c25"
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          <span>
+            Weitere Downloads anzeigen
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

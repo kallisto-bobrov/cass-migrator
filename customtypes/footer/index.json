@@ -1,0 +1,103 @@
+{
+  "id": "footer",
+  "label": "footer",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "name"
+        }
+      },
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display name"
+        }
+      }
+    },
+    "Navigation": {
+      "copyright_text": {
+        "type": "Text",
+        "config": {
+          "label": "Copyright text",
+          "placeholder": "z.B. Cassini consulting AG, das Jahr wird automatisch hinzugefügt"
+        }
+      },
+      "homepage_link": {
+        "type": "Link",
+        "config": {
+          "label": "Homepage link",
+          "select": null
+        }
+      },
+      "navigation": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "link_text": {
+              "type": "Text",
+              "config": {
+                "label": "Link text",
+                "placeholder": "z.B. Impressum"
+              }
+            },
+            "link_title": {
+              "type": "Text",
+              "config": {
+                "label": "Link title",
+                "placeholder": "z.B. Hier gelangen Sie zum Impressum"
+              }
+            },
+            "url": {
+              "type": "Link",
+              "config": {
+                "label": "URL",
+                "select": null
+              }
+            },
+            "link_target": {
+              "type": "Select",
+              "config": {
+                "options": ["_self", "_blank"],
+                "default_value": "_self",
+                "label": "Link target"
+              }
+            }
+          },
+          "label": "Navigation"
+        }
+      }
+    },
+    "Social Media": {
+      "sm_headline": {
+        "type": "Text",
+        "config": {
+          "label": "Headline",
+          "placeholder": "z.B. Folgen Sie uns"
+        }
+      }
+    },
+    "Locations": {
+      "locations_headline1": {
+        "type": "Text",
+        "config": {
+          "label": "Headline",
+          "placeholder": "z.B. Kontakt"
+        }
+      },
+      "locations_cta_text": {
+        "type": "Text",
+        "config": {
+          "label": "CTA text",
+          "placeholder": "z.B. Zur Karte"
+        }
+      }
+    }
+  },
+  "hash": "914dfde213d0764f2656aa520957d565",
+  "status": true,
+  "format": "custom"
+}

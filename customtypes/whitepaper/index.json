@@ -1,0 +1,123 @@
+{
+  "id": "whitepaper",
+  "label": "whitepaper",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display name"
+        }
+      }
+    },
+    "Content": {
+      "teaser_dachzeile": {
+        "type": "Text",
+        "config": {
+          "label": "Dachzeile"
+        }
+      },
+      "teaser_uberschrift": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Überschrift"
+        }
+      },
+      "teaser_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph",
+          "label": "Text"
+        }
+      },
+      "link_whitepaper": {
+        "type": "Text",
+        "config": {
+          "label": "Link Whitepaper",
+          "placeholder": "direkten Dateilink aus der Mediathek kopieren"
+        }
+      },
+      "teaser_link_text": {
+        "type": "Text",
+        "config": {
+          "label": "Link text",
+          "placeholder": "z.B. whitepaper runterladen"
+        }
+      },
+      "teaser_link_title": {
+        "type": "Text",
+        "config": {
+          "label": "Link title"
+        }
+      },
+      "teaser_bild": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 2880,
+            "height": 1620
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 1152,
+              "height": 640
+            },
+            {
+              "name": "XS",
+              "width": 863,
+              "height": 480
+            }
+          ],
+          "label": "Teaser-Bild"
+        }
+      },
+      "teaser_bild_titel": {
+        "type": "Text",
+        "config": {
+          "label": "Teaser-Bild titel",
+          "placeholder": "Gilt für alle Teaser-Bilder"
+        }
+      },
+      "teaser_bild_16_9": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 580,
+            "height": 326
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 580,
+              "height": 326
+            },
+            {
+              "name": "XS",
+              "width": 863,
+              "height": 480
+            }
+          ],
+          "label": "Teaser-Bild-16-9"
+        }
+      },
+      "teaser_bild_1_1": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 1140,
+            "height": 1140
+          },
+          "thumbnails": [],
+          "label": "Teaser-Bild-1-1"
+        }
+      }
+    }
+  },
+  "hash": "07e21878d02878250ff9ce4297f59164",
+  "status": true,
+  "format": "custom"
+}

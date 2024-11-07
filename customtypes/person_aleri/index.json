@@ -1,0 +1,224 @@
+{
+  "id": "person_aleri",
+  "label": "person_aleri",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading6",
+          "label": "Display name"
+        }
+      },
+      "image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 129,
+            "height": 129
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 129,
+              "height": 129
+            },
+            {
+              "name": "XS",
+              "width": 129,
+              "height": 129
+            }
+          ],
+          "label": "Image"
+        }
+      },
+      "verlinkung_bild_url": {
+        "type": "Link",
+        "config": {
+          "allowTargetBlank": true,
+          "label": "Verlinkung Bild URL",
+          "select": null
+        }
+      },
+      "verlinkung_link_titel": {
+        "type": "Text",
+        "config": {
+          "label": "Verlinkung Link Titel"
+        }
+      },
+      "name": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Name"
+        }
+      },
+      "position": {
+        "type": "Text",
+        "config": {
+          "label": "Position"
+        }
+      },
+      "email": {
+        "type": "Text",
+        "config": {
+          "label": "Email"
+        }
+      },
+      "tel": {
+        "type": "Text",
+        "config": {
+          "label": "Tel"
+        }
+      },
+      "overlay_info": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,strong,em,hyperlink,list-item",
+          "allowTargetBlank": true,
+          "label": "Overlay Info"
+        }
+      },
+      "overlay_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 400,
+            "height": 400
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 400,
+              "height": 400
+            },
+            {
+              "name": "XS",
+              "width": 400,
+              "height": 400
+            }
+          ],
+          "label": "Overlay Image"
+        }
+      },
+      "channels": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "channel": {
+              "type": "Text",
+              "config": {
+                "label": "Channel"
+              }
+            }
+          },
+          "label": "Channels"
+        }
+      }
+    },
+    "Teaser": {
+      "teaser_uberschrift": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Überschrift"
+        }
+      },
+      "teaser_kurzuberschrift": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Teaser Kurzüberschrift"
+        }
+      },
+      "teaser_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Text"
+        }
+      },
+      "teaser_kurztext": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Teaser Kurztext"
+        }
+      },
+      "teaser_image_small": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 900,
+            "height": 500
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 480,
+              "height": 270
+            },
+            {
+              "name": "XS",
+              "width": 561,
+              "height": 315
+            }
+          ],
+          "label": "Kleines Bild"
+        }
+      },
+      "teaser_image_big": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 762,
+            "height": 669
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 480,
+              "height": 421
+            },
+            {
+              "name": "XS",
+              "width": 561,
+              "height": 315
+            }
+          ],
+          "label": "Grosses Bild"
+        }
+      },
+      "kleines_teaser_bild": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 245,
+            "height": 100
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 245,
+              "height": 100
+            },
+            {
+              "name": "XS",
+              "width": 245,
+              "height": 100
+            }
+          ],
+          "label": "Kleines Teaser Bild"
+        }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

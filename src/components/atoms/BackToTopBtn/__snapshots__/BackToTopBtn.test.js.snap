@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackToTopBtn snapshots default theme 1`] = `
+.c2 {
+  fill: currentColor;
+}
+
+.c1 {
+  line-height: 0;
+}
+
+.c0 {
+  background: #272D35;
+  color: #FFFFFF;
+  padding: 5px 15px;
+  $position: fixed;
+  z-index: 996;
+  -webkit-transition: bottom .25s ease-out,opacity .25s ease-out;
+  transition: bottom .25s ease-out,opacity .25s ease-out;
+  bottom: -45px;
+  opacity: 0;
+  right: 15px;
+  height: 45px;
+  width: 45px;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  height: 15px;
+  width: 15px;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <svg
+      className=""
+      viewBox="0 0 200 200"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        className="c2"
+        d="M199.6 136.8l-27.6 28-72.4-73.6-72.4 73.6-27.6-28 100-101.6z"
+      />
+    </svg>
+  </div>
+</button>
+`;
+
+exports[`BackToTopBtn snapshots second theme 1`] = `
+.c2 {
+  fill: currentColor;
+}
+
+.c1 {
+  line-height: 0;
+}
+
+.c0 {
+  background: #272D35;
+  color: #FFFFFF;
+  padding: 5px 15px;
+  $position: fixed;
+  z-index: 996;
+  -webkit-transition: bottom .25s ease-out,opacity .25s ease-out;
+  transition: bottom .25s ease-out,opacity .25s ease-out;
+  bottom: -45px;
+  opacity: 0;
+  right: 15px;
+  height: 45px;
+  width: 45px;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  height: 15px;
+  width: 15px;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <svg
+      className=""
+      viewBox="0 0 200 200"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        className="c2"
+        d="M199.6 136.8l-27.6 28-72.4-73.6-72.4 73.6-27.6-28 100-101.6z"
+      />
+    </svg>
+  </div>
+</button>
+`;
+
+exports[`BackToTopBtn snapshots third theme 1`] = `
+.c2 {
+  fill: currentColor;
+}
+
+.c1 {
+  line-height: 0;
+}
+
+.c0 {
+  background: #272D35;
+  color: #FFFFFF;
+  padding: 5px 15px;
+  $position: fixed;
+  z-index: 996;
+  -webkit-transition: bottom .25s ease-out,opacity .25s ease-out;
+  transition: bottom .25s ease-out,opacity .25s ease-out;
+  bottom: -45px;
+  opacity: 0;
+  right: 15px;
+  height: 45px;
+  width: 45px;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  height: 15px;
+  width: 15px;
+}
+
+<button
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <svg
+      className=""
+      viewBox="0 0 200 200"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        className="c2"
+        d="M199.6 136.8l-27.6 28-72.4-73.6-72.4 73.6-27.6-28 100-101.6z"
+      />
+    </svg>
+  </div>
+</button>
+`;

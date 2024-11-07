@@ -1,0 +1,61 @@
+{
+  "id": "video",
+  "label": "video",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1",
+          "label": "Display name"
+        }
+      }
+    },
+    "Content": {
+      "youtube_link": {
+        "type": "Text",
+        "config": {
+          "label": "YouTube link",
+          "placeholder": "einfach aus der Adressleiste kopieren"
+        }
+      },
+      "teaser_uberschrift": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading3",
+          "label": "Überschrift"
+        }
+      },
+      "teaser_text": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph,strong,em,list-item,o-list-item",
+          "label": "Text"
+        }
+      },
+      "externer_link": {
+        "type": "Text",
+        "config": {
+          "label": "Externer link",
+          "placeholder": "z.B. https://example.com"
+        }
+      },
+      "teaser_link_text": {
+        "type": "Text",
+        "config": {
+          "label": "Link text"
+        }
+      },
+      "teaser_link_title": {
+        "type": "Text",
+        "config": {
+          "label": "Link title"
+        }
+      }
+    }
+  },
+  "hash": "e25cec4cdfdd402540fea9f822f68fd8",
+  "status": true,
+  "format": "custom"
+}

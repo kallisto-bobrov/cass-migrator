@@ -1,0 +1,6118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeaserTile snapshots default theme 1`] = `
+Array [
+  .c5 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.c10 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c10 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c10 svg:first-of-type {
+  right: 0;
+}
+
+.c10 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c7 {
+  color: #000000;
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c7 strong {
+  font-family: "GeomanistMedium",Arial,sans-serif;
+}
+
+.c7 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#2CC700 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c7 h3,
+.c7 h4 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c7 ul,
+.c7 ol {
+  margin: 20px 6px;
+}
+
+.c7 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c7 ul li {
+  padding-left: 15px;
+}
+
+.c7 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c7 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c7 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c7 p + p,
+.c7 p + h4,
+.c7 p + h3 {
+  margin-top: 40px;
+}
+
+.c7 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c7 a:hover {
+  opacity: .3;
+}
+
+.c8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c9 > * + * {
+  margin-left: 15px;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c3 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c6 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+@media (max-width:767px) {
+  .c5 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 h3,
+  .c7 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c9 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding: 20px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href=""
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel={null}
+      target={null}
+      title="folgen Sie mir!"
+    >
+      <div>
+        <div
+          className="c3"
+        >
+          <h3
+            className="c4 c5"
+          >
+            Fair play
+          </h3>
+          <div
+            className="c6 c7"
+          >
+            <p>
+              Bei Cassini können Sie sich verwirklichen – auch wenn Sie nicht aus der Beratungsbranche kommen. Substanz entscheidet. Und eine wesentliche Eigenschaft: Entrepreneurship.
+            </p>
+          </div>
+          <div
+            className="c8"
+          >
+            <div
+              className="c9"
+            >
+              <div>
+                zum Impressum vom type Page
+              </div>
+              <div
+                className="c10"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  .c5 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.c8 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c8 svg:first-of-type {
+  right: 0;
+}
+
+.c8 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c6 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c7 > * + * {
+  margin-left: 15px;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #2CC700;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c3 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4 {
+  color: #FFFFFF;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+@media (max-width:767px) {
+  .c5 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding: 20px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href=""
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel={null}
+      target={null}
+      title=""
+    >
+      <div>
+        <div
+          className="c3"
+        >
+          <h3
+            className="c4 c5"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          </h3>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <div>
+                zum Event
+              </div>
+              <div
+                className="c8"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  .c8 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.c13 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c13 svg:first-of-type {
+  right: 0;
+}
+
+.c13 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c10 {
+  color: #000000;
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c10 strong {
+  font-family: "GeomanistMedium",Arial,sans-serif;
+}
+
+.c10 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#2CC700 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c10 h3,
+.c10 h4 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c10 ul,
+.c10 ol {
+  margin: 20px 6px;
+}
+
+.c10 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c10 ul li {
+  padding-left: 15px;
+}
+
+.c10 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c10 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c10 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c10 p + p,
+.c10 p + h4,
+.c10 p + h3 {
+  margin-top: 40px;
+}
+
+.c10 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 a:hover {
+  opacity: .3;
+}
+
+.c11 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c12 > * + * {
+  margin-left: 15px;
+}
+
+.c3 {
+  display: block;
+  height: 0;
+  min-height: 0;
+  $position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.c4 {
+  $position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c5 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c7 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c9 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c6 {
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+}
+
+@media (max-width:767px) {
+  .c8 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 h3,
+  .c10 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c3 {
+    padding-top: %;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding-top: 55.61993047508691%;
+  }
+}
+
+@media (max-width:575px) {
+  .c5 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href=""
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel={null}
+      target={null}
+      title="folgen Sie mir!"
+    >
+      <div>
+        <picture
+          className="c3"
+        >
+          <source
+            media="(min-width: 992px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+          <source
+            media="(min-width: 576px) and (max-width: 991px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/afddb0f7d90dd213cc9514dbfc2fb6e7e1d61036_og_dummy.png"
+          />
+          <source
+            media="(max-width: 575px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/bc4934328a04d95470670d371dce20e45efb56ce_og_dummy.png"
+          />
+          <img
+            alt={null}
+            className="c4"
+            src="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+        </picture>
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            Interview
+          </div>
+          <h3
+            className="c7 c8"
+          >
+            Was IoT-Plattformen für die Sicherheit leisten
+
+          </h3>
+          <div
+            className="c9 c10"
+          >
+            <p>
+              IoT-Plattformen vereinfachen den Aufbau und Betrieb von Lösungen im Internet of Things. Doch erhöhen sie auch die Sicherheit im IoT?
+            </p>
+          </div>
+          <div
+            className="c11"
+          >
+            <div
+              className="c12"
+            >
+              <div>
+                Zum Interview
+              </div>
+              <div
+                className="c13"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  .c8 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.c10 {
+  color: #000000;
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c10 strong {
+  font-family: "GeomanistMedium",Arial,sans-serif;
+}
+
+.c10 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#2CC700 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c10 h3,
+.c10 h4 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c10 ul,
+.c10 ol {
+  margin: 20px 6px;
+}
+
+.c10 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c10 ul li {
+  padding-left: 15px;
+}
+
+.c10 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c10 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c10 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c10 p + p,
+.c10 p + h4,
+.c10 p + h3 {
+  margin-top: 40px;
+}
+
+.c10 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 a:hover {
+  opacity: .3;
+}
+
+.c4 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #2CC700;
+  padding: 10px 20px;
+  padding: 0 15px;
+}
+
+.c4 > * + * {
+  margin-left: 15px;
+}
+
+.c4:hover {
+  color: #FFFFFF;
+}
+
+.c4:before {
+  content: '';
+  background: #32e100;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c4:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c4 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c4 > * + * {
+  margin-left: 20px;
+}
+
+.c4 > * + * {
+  margin-left: 10px;
+}
+
+.c2 {
+  padding: 35px;
+}
+
+.c3 {
+  text-align: left;
+  line-height: 25px;
+  padding: 10px 20px;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c7 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c9 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c6 {
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+}
+
+@media (max-width:767px) {
+  .c8 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 h3,
+  .c10 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c4 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:575px) {
+  .c5 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="c1"
+      target={null}
+      title={null}
+    >
+      <div
+        className="c2"
+      >
+        <button
+          className="c3 c4"
+          onClick={[Function]}
+          title={null}
+          type="button"
+        >
+          <span />
+          <span>
+            <svg
+              height="8px"
+              version="1.1"
+              viewBox="0 0 18 8"
+              width="18px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Symbols"
+                stroke="none"
+                strokeWidth="1"
+              >
+                <g
+                  fill="currentColor"
+                  id="m003---Footer_XL"
+                  transform="translate(-382.000000, -601.000000)"
+                >
+                  <g
+                    id="Group-14"
+                    transform="translate(300.000000, 422.000000)"
+                  >
+                    <g
+                      id="Group-Copy-5"
+                      transform="translate(0.000000, 165.000000)"
+                    >
+                      <polygon
+                        id="Fill-1"
+                        points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                        transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        className="c5"
+      >
+        <div
+          className="c6"
+        >
+          Video
+        </div>
+        <h3
+          className="c7 c8"
+        >
+          Was IoT-Plattformen für die Sicherheit leisten
+
+        </h3>
+        <div
+          className="c9 c10"
+        >
+          <p>
+            IoT-Plattformen vereinfachen den Aufbau und Betrieb von Lösungen im Internet of Things. Doch erhöhen sie auch die Sicherheit im IoT?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c8 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.c13 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c13 svg:first-of-type {
+  right: 0;
+}
+
+.c13 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c10 {
+  color: #000000;
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c10 strong {
+  font-family: "GeomanistMedium",Arial,sans-serif;
+}
+
+.c10 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#2CC700 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c10 h3,
+.c10 h4 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c10 ul,
+.c10 ol {
+  margin: 20px 6px;
+}
+
+.c10 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c10 ul li {
+  padding-left: 15px;
+}
+
+.c10 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c10 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c10 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c10 p + p,
+.c10 p + h4,
+.c10 p + h3 {
+  margin-top: 40px;
+}
+
+.c10 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 a:hover {
+  opacity: .3;
+}
+
+.c11 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c12 > * + * {
+  margin-left: 15px;
+}
+
+.c3 {
+  display: block;
+  height: 0;
+  min-height: 0;
+  $position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.c4 {
+  $position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c5 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c7 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c9 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c6 {
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+}
+
+@media (max-width:767px) {
+  .c8 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 h3,
+  .c10 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c3 {
+    padding-top: %;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding-top: 55.61993047508691%;
+  }
+}
+
+@media (max-width:575px) {
+  .c5 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href="https://prismic-io.s3.amazonaws.com/cassini%2F7052ee55-00e1-4771-80d4-0eeec27ff001_whitepaper_test.pdf"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel="noreferrer noopener"
+      target="_blank"
+      title="ca. 3 MB"
+    >
+      <div>
+        <picture
+          className="c3"
+        >
+          <source
+            media="(min-width: 992px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+          <source
+            media="(min-width: 576px) and (max-width: 991px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/afddb0f7d90dd213cc9514dbfc2fb6e7e1d61036_og_dummy.png"
+          />
+          <source
+            media="(max-width: 575px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/bc4934328a04d95470670d371dce20e45efb56ce_og_dummy.png"
+          />
+          <img
+            alt={null}
+            className="c4"
+            src="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+        </picture>
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            Whitepaper
+          </div>
+          <h3
+            className="c7 c8"
+          >
+            Was IoT-Plattformen für die Sicherheit leisten
+
+          </h3>
+          <div
+            className="c9 c10"
+          >
+            <p>
+              IoT-Plattformen vereinfachen den Aufbau und Betrieb von Lösungen im Internet of Things. Doch erhöhen sie auch die Sicherheit im IoT?
+            </p>
+          </div>
+          <div
+            className="c11"
+          >
+            <div
+              className="c12"
+            >
+              <div>
+                Whitepaper runterladen
+              </div>
+              <div
+                className="c13"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+]
+`;
+
+exports[`TeaserTile snapshots second theme 1`] = `
+Array [
+  .c5 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.c10 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c10 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c10 svg:first-of-type {
+  right: 0;
+}
+
+.c10 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c7 {
+  color: #000000;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c7 strong {
+  font-family: "Lora-Bold",serif;
+}
+
+.c7 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#FF8135 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c7 h3,
+.c7 h4 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c7 ul,
+.c7 ol {
+  margin: 20px 6px;
+}
+
+.c7 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c7 ul li {
+  padding-left: 15px;
+}
+
+.c7 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c7 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c7 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "Lora-Bold",serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c7 p + p,
+.c7 p + h4,
+.c7 p + h3 {
+  margin-top: 40px;
+}
+
+.c7 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c7 a:hover {
+  opacity: .3;
+}
+
+.c8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c9 > * + * {
+  margin-left: 15px;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c3 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c6 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+@media (max-width:767px) {
+  .c5 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 h3,
+  .c7 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c9 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding: 20px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href=""
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel={null}
+      target={null}
+      title="folgen Sie mir!"
+    >
+      <div>
+        <div
+          className="c3"
+        >
+          <h3
+            className="c4 c5"
+          >
+            Fair play
+          </h3>
+          <div
+            className="c6 c7"
+          >
+            <p>
+              Bei Cassini können Sie sich verwirklichen – auch wenn Sie nicht aus der Beratungsbranche kommen. Substanz entscheidet. Und eine wesentliche Eigenschaft: Entrepreneurship.
+            </p>
+          </div>
+          <div
+            className="c8"
+          >
+            <div
+              className="c9"
+            >
+              <div>
+                zum Impressum vom type Page
+              </div>
+              <div
+                className="c10"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  .c5 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.c8 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c8 svg:first-of-type {
+  right: 0;
+}
+
+.c8 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c6 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c7 > * + * {
+  margin-left: 15px;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FF8135;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c3 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4 {
+  color: #FFFFFF;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+@media (max-width:767px) {
+  .c5 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding: 20px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href=""
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel={null}
+      target={null}
+      title=""
+    >
+      <div>
+        <div
+          className="c3"
+        >
+          <h3
+            className="c4 c5"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          </h3>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <div>
+                zum Event
+              </div>
+              <div
+                className="c8"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  .c8 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.c13 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c13 svg:first-of-type {
+  right: 0;
+}
+
+.c13 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c10 {
+  color: #000000;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c10 strong {
+  font-family: "Lora-Bold",serif;
+}
+
+.c10 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#FF8135 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c10 h3,
+.c10 h4 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c10 ul,
+.c10 ol {
+  margin: 20px 6px;
+}
+
+.c10 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c10 ul li {
+  padding-left: 15px;
+}
+
+.c10 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c10 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c10 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "Lora-Bold",serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c10 p + p,
+.c10 p + h4,
+.c10 p + h3 {
+  margin-top: 40px;
+}
+
+.c10 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 a:hover {
+  opacity: .3;
+}
+
+.c11 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c12 > * + * {
+  margin-left: 15px;
+}
+
+.c3 {
+  display: block;
+  height: 0;
+  min-height: 0;
+  $position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.c4 {
+  $position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c5 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c7 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c9 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c6 {
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+}
+
+@media (max-width:767px) {
+  .c8 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 h3,
+  .c10 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c3 {
+    padding-top: %;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding-top: 55.61993047508691%;
+  }
+}
+
+@media (max-width:575px) {
+  .c5 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href=""
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel={null}
+      target={null}
+      title="folgen Sie mir!"
+    >
+      <div>
+        <picture
+          className="c3"
+        >
+          <source
+            media="(min-width: 992px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+          <source
+            media="(min-width: 576px) and (max-width: 991px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/afddb0f7d90dd213cc9514dbfc2fb6e7e1d61036_og_dummy.png"
+          />
+          <source
+            media="(max-width: 575px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/bc4934328a04d95470670d371dce20e45efb56ce_og_dummy.png"
+          />
+          <img
+            alt={null}
+            className="c4"
+            src="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+        </picture>
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            Interview
+          </div>
+          <h3
+            className="c7 c8"
+          >
+            Was IoT-Plattformen für die Sicherheit leisten
+
+          </h3>
+          <div
+            className="c9 c10"
+          >
+            <p>
+              IoT-Plattformen vereinfachen den Aufbau und Betrieb von Lösungen im Internet of Things. Doch erhöhen sie auch die Sicherheit im IoT?
+            </p>
+          </div>
+          <div
+            className="c11"
+          >
+            <div
+              className="c12"
+            >
+              <div>
+                Zum Interview
+              </div>
+              <div
+                className="c13"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  .c8 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.c10 {
+  color: #000000;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c10 strong {
+  font-family: "Lora-Bold",serif;
+}
+
+.c10 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#FF8135 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c10 h3,
+.c10 h4 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c10 ul,
+.c10 ol {
+  margin: 20px 6px;
+}
+
+.c10 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c10 ul li {
+  padding-left: 15px;
+}
+
+.c10 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c10 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c10 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "Lora-Bold",serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c10 p + p,
+.c10 p + h4,
+.c10 p + h3 {
+  margin-top: 40px;
+}
+
+.c10 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 a:hover {
+  opacity: .3;
+}
+
+.c4 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #FF8135;
+  padding: 10px 20px;
+  padding: 0 15px;
+}
+
+.c4 > * + * {
+  margin-left: 15px;
+}
+
+.c4:hover {
+  color: #FFFFFF;
+}
+
+.c4:before {
+  content: '';
+  background: #ff914f;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c4:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c4 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c4 > * + * {
+  margin-left: 20px;
+}
+
+.c4 > * + * {
+  margin-left: 10px;
+}
+
+.c2 {
+  padding: 35px;
+}
+
+.c3 {
+  text-align: left;
+  line-height: 25px;
+  padding: 10px 20px;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c7 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c9 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c6 {
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+}
+
+@media (max-width:767px) {
+  .c8 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 h3,
+  .c10 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c4 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:575px) {
+  .c5 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="c1"
+      target={null}
+      title={null}
+    >
+      <div
+        className="c2"
+      >
+        <button
+          className="c3 c4"
+          onClick={[Function]}
+          title={null}
+          type="button"
+        >
+          <span />
+          <span>
+            <svg
+              height="8px"
+              version="1.1"
+              viewBox="0 0 18 8"
+              width="18px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Symbols"
+                stroke="none"
+                strokeWidth="1"
+              >
+                <g
+                  fill="currentColor"
+                  id="m003---Footer_XL"
+                  transform="translate(-382.000000, -601.000000)"
+                >
+                  <g
+                    id="Group-14"
+                    transform="translate(300.000000, 422.000000)"
+                  >
+                    <g
+                      id="Group-Copy-5"
+                      transform="translate(0.000000, 165.000000)"
+                    >
+                      <polygon
+                        id="Fill-1"
+                        points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                        transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        className="c5"
+      >
+        <div
+          className="c6"
+        >
+          Video
+        </div>
+        <h3
+          className="c7 c8"
+        >
+          Was IoT-Plattformen für die Sicherheit leisten
+
+        </h3>
+        <div
+          className="c9 c10"
+        >
+          <p>
+            IoT-Plattformen vereinfachen den Aufbau und Betrieb von Lösungen im Internet of Things. Doch erhöhen sie auch die Sicherheit im IoT?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c8 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.c13 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c13 svg:first-of-type {
+  right: 0;
+}
+
+.c13 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c10 {
+  color: #000000;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c10 strong {
+  font-family: "Lora-Bold",serif;
+}
+
+.c10 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#FF8135 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c10 h3,
+.c10 h4 {
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c10 ul,
+.c10 ol {
+  margin: 20px 6px;
+}
+
+.c10 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c10 ul li {
+  padding-left: 15px;
+}
+
+.c10 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c10 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c10 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "Lora-Bold",serif;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c10 p + p,
+.c10 p + h4,
+.c10 p + h3 {
+  margin-top: 40px;
+}
+
+.c10 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 a:hover {
+  opacity: .3;
+}
+
+.c11 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c12 > * + * {
+  margin-left: 15px;
+}
+
+.c3 {
+  display: block;
+  height: 0;
+  min-height: 0;
+  $position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.c4 {
+  $position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c5 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c7 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c9 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c6 {
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+}
+
+@media (max-width:767px) {
+  .c8 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 h3,
+  .c10 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c3 {
+    padding-top: %;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding-top: 55.61993047508691%;
+  }
+}
+
+@media (max-width:575px) {
+  .c5 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href="https://prismic-io.s3.amazonaws.com/cassini%2F7052ee55-00e1-4771-80d4-0eeec27ff001_whitepaper_test.pdf"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel="noreferrer noopener"
+      target="_blank"
+      title="ca. 3 MB"
+    >
+      <div>
+        <picture
+          className="c3"
+        >
+          <source
+            media="(min-width: 992px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+          <source
+            media="(min-width: 576px) and (max-width: 991px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/afddb0f7d90dd213cc9514dbfc2fb6e7e1d61036_og_dummy.png"
+          />
+          <source
+            media="(max-width: 575px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/bc4934328a04d95470670d371dce20e45efb56ce_og_dummy.png"
+          />
+          <img
+            alt={null}
+            className="c4"
+            src="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+        </picture>
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            Whitepaper
+          </div>
+          <h3
+            className="c7 c8"
+          >
+            Was IoT-Plattformen für die Sicherheit leisten
+
+          </h3>
+          <div
+            className="c9 c10"
+          >
+            <p>
+              IoT-Plattformen vereinfachen den Aufbau und Betrieb von Lösungen im Internet of Things. Doch erhöhen sie auch die Sicherheit im IoT?
+            </p>
+          </div>
+          <div
+            className="c11"
+          >
+            <div
+              className="c12"
+            >
+              <div>
+                Whitepaper runterladen
+              </div>
+              <div
+                className="c13"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+]
+`;
+
+exports[`TeaserTile snapshots third theme 1`] = `
+Array [
+  .c5 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.c10 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c10 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c10 svg:first-of-type {
+  right: 0;
+}
+
+.c10 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c7 {
+  color: #000000;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c7 strong {
+  font-family: "Patua One",cursive;
+}
+
+.c7 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#009999 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c7 h3,
+.c7 h4 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c7 ul,
+.c7 ol {
+  margin: 20px 6px;
+}
+
+.c7 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c7 ul li {
+  padding-left: 15px;
+}
+
+.c7 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c7 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c7 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "Patua One",cursive;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c7 p + p,
+.c7 p + h4,
+.c7 p + h3 {
+  margin-top: 40px;
+}
+
+.c7 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c7 a:hover {
+  opacity: .3;
+}
+
+.c8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c9 > * + * {
+  margin-left: 15px;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c3 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c6 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+@media (max-width:767px) {
+  .c5 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 h3,
+  .c7 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c9 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding: 20px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href=""
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel={null}
+      target={null}
+      title="folgen Sie mir!"
+    >
+      <div>
+        <div
+          className="c3"
+        >
+          <h3
+            className="c4 c5"
+          >
+            Fair play
+          </h3>
+          <div
+            className="c6 c7"
+          >
+            <p>
+              Bei Cassini können Sie sich verwirklichen – auch wenn Sie nicht aus der Beratungsbranche kommen. Substanz entscheidet. Und eine wesentliche Eigenschaft: Entrepreneurship.
+            </p>
+          </div>
+          <div
+            className="c8"
+          >
+            <div
+              className="c9"
+            >
+              <div>
+                zum Impressum vom type Page
+              </div>
+              <div
+                className="c10"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  .c5 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.c8 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c8 svg:first-of-type {
+  right: 0;
+}
+
+.c8 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c6 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c7 > * + * {
+  margin-left: 15px;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #009999;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c3 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4 {
+  color: #FFFFFF;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+@media (max-width:767px) {
+  .c5 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding: 20px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href=""
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel={null}
+      target={null}
+      title=""
+    >
+      <div>
+        <div
+          className="c3"
+        >
+          <h3
+            className="c4 c5"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          </h3>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <div>
+                zum Event
+              </div>
+              <div
+                className="c8"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  .c8 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.c13 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c13 svg:first-of-type {
+  right: 0;
+}
+
+.c13 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c10 {
+  color: #000000;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c10 strong {
+  font-family: "Patua One",cursive;
+}
+
+.c10 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#009999 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c10 h3,
+.c10 h4 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c10 ul,
+.c10 ol {
+  margin: 20px 6px;
+}
+
+.c10 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c10 ul li {
+  padding-left: 15px;
+}
+
+.c10 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c10 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c10 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "Patua One",cursive;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c10 p + p,
+.c10 p + h4,
+.c10 p + h3 {
+  margin-top: 40px;
+}
+
+.c10 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 a:hover {
+  opacity: .3;
+}
+
+.c11 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c12 > * + * {
+  margin-left: 15px;
+}
+
+.c3 {
+  display: block;
+  height: 0;
+  min-height: 0;
+  $position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.c4 {
+  $position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c5 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c7 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c9 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c6 {
+  font-family: "Roboto",sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+}
+
+@media (max-width:767px) {
+  .c8 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 h3,
+  .c10 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c3 {
+    padding-top: %;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding-top: 55.61993047508691%;
+  }
+}
+
+@media (max-width:575px) {
+  .c5 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href=""
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel={null}
+      target={null}
+      title="folgen Sie mir!"
+    >
+      <div>
+        <picture
+          className="c3"
+        >
+          <source
+            media="(min-width: 992px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+          <source
+            media="(min-width: 576px) and (max-width: 991px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/afddb0f7d90dd213cc9514dbfc2fb6e7e1d61036_og_dummy.png"
+          />
+          <source
+            media="(max-width: 575px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/bc4934328a04d95470670d371dce20e45efb56ce_og_dummy.png"
+          />
+          <img
+            alt={null}
+            className="c4"
+            src="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+        </picture>
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            Interview
+          </div>
+          <h3
+            className="c7 c8"
+          >
+            Was IoT-Plattformen für die Sicherheit leisten
+
+          </h3>
+          <div
+            className="c9 c10"
+          >
+            <p>
+              IoT-Plattformen vereinfachen den Aufbau und Betrieb von Lösungen im Internet of Things. Doch erhöhen sie auch die Sicherheit im IoT?
+            </p>
+          </div>
+          <div
+            className="c11"
+          >
+            <div
+              className="c12"
+            >
+              <div>
+                Zum Interview
+              </div>
+              <div
+                className="c13"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  .c8 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.c10 {
+  color: #000000;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c10 strong {
+  font-family: "Patua One",cursive;
+}
+
+.c10 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#009999 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c10 h3,
+.c10 h4 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c10 ul,
+.c10 ol {
+  margin: 20px 6px;
+}
+
+.c10 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c10 ul li {
+  padding-left: 15px;
+}
+
+.c10 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c10 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c10 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "Patua One",cursive;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c10 p + p,
+.c10 p + h4,
+.c10 p + h3 {
+  margin-top: 40px;
+}
+
+.c10 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 a:hover {
+  opacity: .3;
+}
+
+.c4 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #009999;
+  padding: 10px 20px;
+  padding: 0 15px;
+}
+
+.c4 > * + * {
+  margin-left: 15px;
+}
+
+.c4:hover {
+  color: #FFFFFF;
+}
+
+.c4:before {
+  content: '';
+  background: #00b3b3;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c4:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c4 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c4 > * + * {
+  margin-left: 20px;
+}
+
+.c4 > * + * {
+  margin-left: 10px;
+}
+
+.c2 {
+  padding: 35px;
+}
+
+.c3 {
+  text-align: left;
+  line-height: 25px;
+  padding: 10px 20px;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c7 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c9 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c6 {
+  font-family: "Roboto",sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+}
+
+@media (max-width:767px) {
+  .c8 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 h3,
+  .c10 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c4 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:575px) {
+  .c5 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="c1"
+      target={null}
+      title={null}
+    >
+      <div
+        className="c2"
+      >
+        <button
+          className="c3 c4"
+          onClick={[Function]}
+          title={null}
+          type="button"
+        >
+          <span />
+          <span>
+            <svg
+              height="8px"
+              version="1.1"
+              viewBox="0 0 18 8"
+              width="18px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fillRule="evenodd"
+                id="Symbols"
+                stroke="none"
+                strokeWidth="1"
+              >
+                <g
+                  fill="currentColor"
+                  id="m003---Footer_XL"
+                  transform="translate(-382.000000, -601.000000)"
+                >
+                  <g
+                    id="Group-14"
+                    transform="translate(300.000000, 422.000000)"
+                  >
+                    <g
+                      id="Group-Copy-5"
+                      transform="translate(0.000000, 165.000000)"
+                    >
+                      <polygon
+                        id="Fill-1"
+                        points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                        transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        className="c5"
+      >
+        <div
+          className="c6"
+        >
+          Video
+        </div>
+        <h3
+          className="c7 c8"
+        >
+          Was IoT-Plattformen für die Sicherheit leisten
+
+        </h3>
+        <div
+          className="c9 c10"
+        >
+          <p>
+            IoT-Plattformen vereinfachen den Aufbau und Betrieb von Lösungen im Internet of Things. Doch erhöhen sie auch die Sicherheit im IoT?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  .c8 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+}
+
+.c13 {
+  width: 18px;
+  $position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 svg {
+  $position: absolute;
+  -webkit-transition: right .25s ease-out;
+  transition: right .25s ease-out;
+  top: 50%;
+  -webkit-transform: translateY(-47%);
+  -ms-transform: translateY(-47%);
+  transform: translateY(-47%);
+}
+
+.c13 svg:first-of-type {
+  right: 0;
+}
+
+.c13 svg:last-of-type {
+  right: 25px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c10 {
+  color: #000000;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.c10 strong {
+  font-family: "Patua One",cursive;
+}
+
+.c10 em {
+  $position: relative;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
+  background-$position: 0 100%;
+  background-image: linear-gradient(to right,transparent 50%,#009999 50%);
+  -webkit-transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  transition: background-$position 1.2s ease-out,background-color 2.2s cubic-bezier(1,0,1,.02);
+  padding: 2px 0;
+}
+
+.c10 h3,
+.c10 h4 {
+  color: #000000;
+  font-family: "Patua One",cursive;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.c10 ul,
+.c10 ol {
+  margin: 20px 6px;
+}
+
+.c10 ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.c10 ul li {
+  padding-left: 15px;
+}
+
+.c10 ol {
+  margin-left: 13px;
+  counter-reset: ol-counter;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.c10 ol li {
+  counter-increment: ol-counter;
+  $position: relative;
+}
+
+.c10 ol li:before {
+  --size: 14px;
+  content: counter(ol-counter);
+  color: #FFFFFF;
+  $position: absolute;
+  left: calc(-1 * var(--size) - 15px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 7px;
+  background: #000000;
+  text-align: center;
+  font-family: "Patua One",cursive;
+  font-size: calc(var(--size) - 1px);
+}
+
+.c10 p + p,
+.c10 p + h4,
+.c10 p + h3 {
+  margin-top: 40px;
+}
+
+.c10 a {
+  color: #000000;
+  $position: relative;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-out;
+  transition: opacity .25s ease-out;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 a:hover {
+  opacity: .3;
+}
+
+.c11 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c12 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1 !important;
+}
+
+.c12 > * + * {
+  margin-left: 15px;
+}
+
+.c3 {
+  display: block;
+  height: 0;
+  min-height: 0;
+  $position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.c4 {
+  $position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c5 {
+  padding: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c7 {
+  color: #000000;
+  min-height: 56px;
+  margin-bottom: 20px;
+}
+
+.c9 {
+  margin-bottom: 20px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c6 {
+  font-family: "Roboto",sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
+}
+
+@media (max-width:767px) {
+  .c8 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 h3,
+  .c10 h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 ol li:before {
+    --size: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+  .c3 {
+    padding-top: %;
+  }
+}
+
+@media (max-width:575px) {
+  .c3 {
+    padding-top: 55.61993047508691%;
+  }
+}
+
+@media (max-width:575px) {
+  .c5 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+<div
+    className="c0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <a
+      className="c1 c2"
+      href="https://prismic-io.s3.amazonaws.com/cassini%2F7052ee55-00e1-4771-80d4-0eeec27ff001_whitepaper_test.pdf"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel="noreferrer noopener"
+      target="_blank"
+      title="ca. 3 MB"
+    >
+      <div>
+        <picture
+          className="c3"
+        >
+          <source
+            media="(min-width: 992px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+          <source
+            media="(min-width: 576px) and (max-width: 991px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/afddb0f7d90dd213cc9514dbfc2fb6e7e1d61036_og_dummy.png"
+          />
+          <source
+            media="(max-width: 575px)"
+            srcSet="https://cassini.cdn.prismic.io/cassini/bc4934328a04d95470670d371dce20e45efb56ce_og_dummy.png"
+          />
+          <img
+            alt={null}
+            className="c4"
+            src="https://cassini.cdn.prismic.io/cassini/6a6d90feaa687ed1383bd35a1f2c8133fec53a94_og_dummy.png"
+          />
+        </picture>
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            Whitepaper
+          </div>
+          <h3
+            className="c7 c8"
+          >
+            Was IoT-Plattformen für die Sicherheit leisten
+
+          </h3>
+          <div
+            className="c9 c10"
+          >
+            <p>
+              IoT-Plattformen vereinfachen den Aufbau und Betrieb von Lösungen im Internet of Things. Doch erhöhen sie auch die Sicherheit im IoT?
+            </p>
+          </div>
+          <div
+            className="c11"
+          >
+            <div
+              className="c12"
+            >
+              <div>
+                Whitepaper runterladen
+              </div>
+              <div
+                className="c13"
+              >
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <svg
+                  height="8px"
+                  version="1.1"
+                  viewBox="0 0 18 8"
+                  width="18px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                    id="Symbols"
+                    stroke="none"
+                    strokeWidth="1"
+                  >
+                    <g
+                      fill="currentColor"
+                      id="m003---Footer_XL"
+                      transform="translate(-382.000000, -601.000000)"
+                    >
+                      <g
+                        id="Group-14"
+                        transform="translate(300.000000, 422.000000)"
+                      >
+                        <g
+                          id="Group-Copy-5"
+                          transform="translate(0.000000, 165.000000)"
+                        >
+                          <polygon
+                            id="Fill-1"
+                            points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                            transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+]
+`;

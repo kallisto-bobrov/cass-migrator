@@ -1,0 +1,42 @@
+[
+  {
+    "source": "/podcast/supply-and-comply",
+    "destination": "https://www.cassini.de/leistungen/lieferkettensorgfaltspflichtengesetz",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/wie-ein-virtuelles-meeting-nicht-falsch-laeuft",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/webinar-supply-chain-risk-and-resilience",
+    "destination": "https://www.cassini.de/leistungen/lieferkettensorgfaltspflichtengesetz",
+    "permanent": true
+  },
+  {
+    "source": "/podcast/testmanagement-der-zukunft",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/das-war-der-hafentalk-cmodyssee",
+    "destination": "https://www.cassini.de/inspire",
+    "permanent": true
+  },
+  {
+    "source": "/podcast/remote-scrum",
+    "destination": "https://www.cassini.de/leistungen/agile-transformation",
+    "permanent": true
+  },
+  {
+    "source": "/inspire/singlechannel-multichannel-omnichannel",
+    "destination": "https://www.cassini.de/leistungen/digitaler-wandel-im-einzelhandel",
+    "permanent": true
+  },
+  {
+    "source": "/leistungen/transportation",
+    "destination": "https://www.cassini.de/leistungen/mobilitaet-der-zukunft",
+    "permanent": true
+  }
+]

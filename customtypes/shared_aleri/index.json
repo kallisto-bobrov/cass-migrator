@@ -1,0 +1,531 @@
+{
+  "id": "shared_aleri",
+  "label": "shared_aleri",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading6",
+          "label": "display name"
+        }
+      },
+      "homepage_link": {
+        "type": "Link",
+        "config": {
+          "label": "homepage link",
+          "select": null
+        }
+      },
+      "homepage_lik_title": {
+        "type": "Text",
+        "config": {
+          "label": "homepage lik title",
+          "placeholder": "z.B. zur Startseite"
+        }
+      },
+      "homepage_link_text": {
+        "type": "Text",
+        "config": {
+          "label": "homepage link text",
+          "placeholder": "optional"
+        }
+      },
+      "jobs_link": {
+        "type": "Link",
+        "config": {
+          "allowTargetBlank": true,
+          "label": "jobs link",
+          "select": null
+        }
+      },
+      "jobs_link_title": {
+        "type": "Text",
+        "config": {
+          "label": "jobs link title"
+        }
+      },
+      "job_link_text": {
+        "type": "Text",
+        "config": {
+          "label": "job link text",
+          "placeholder": "optional"
+        }
+      }
+    },
+    "Meta": {
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "meta title"
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "meta description"
+        }
+      }
+    },
+    "OpenGraph": {
+      "og_sitename": {
+        "type": "Text",
+        "config": {
+          "label": "OG sitename"
+        }
+      },
+      "og_title": {
+        "type": "Text",
+        "config": {
+          "label": "OG title"
+        }
+      },
+      "og_description": {
+        "type": "Text",
+        "config": {
+          "label": "OG description"
+        }
+      },
+      "og_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 1200,
+            "height": 630
+          },
+          "thumbnails": [],
+          "label": "OG image"
+        }
+      }
+    },
+    "CTA": {
+      "slider_btn_prev": {
+        "type": "Text",
+        "config": {
+          "label": "slider btn zurück",
+          "placeholder": "z.B. zum vorherigen Slide"
+        }
+      },
+      "slider_btn_next": {
+        "type": "Text",
+        "config": {
+          "label": "slider btn vorwärts",
+          "placeholder": "z.B. zum nächsten Slide"
+        }
+      }
+    },
+    "Filter": {
+      "headline_zielgruppe": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Headline Zielgruppe"
+        }
+      },
+      "headline_themengebiete": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Headline Themengebiete"
+        }
+      },
+      "headline_themen": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em",
+          "allowTargetBlank": true,
+          "label": "Headline Themen"
+        }
+      }
+    },
+    "Default Teaser": {
+      "teaser_uberschrift": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "label": "Überschrift"
+        }
+      },
+      "teaser_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Text"
+        }
+      },
+      "teaser_link_text": {
+        "type": "Text",
+        "config": {
+          "label": "Link text",
+          "placeholder": "z.B. mehr erfahren"
+        }
+      },
+      "teaser_link_title": {
+        "type": "Text",
+        "config": {
+          "label": "Link title",
+          "placeholder": "z.B. mehr über XY erfahren"
+        }
+      },
+      "no_teaser_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Text bei 0 Teasern"
+        }
+      },
+      "no_job_teaser_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Text bei 0 Job-Teasern"
+        }
+      },
+      "teaser_image_small": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 900,
+            "height": 500
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 480,
+              "height": 270
+            },
+            {
+              "name": "XS",
+              "width": 561,
+              "height": 315
+            }
+          ],
+          "label": "Kleines Bild"
+        }
+      },
+      "teaser_image_big": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 762,
+            "height": 669
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 480,
+              "height": 421
+            },
+            {
+              "name": "XS",
+              "width": 561,
+              "height": 315
+            }
+          ],
+          "label": "Grosses Bild"
+        }
+      }
+    },
+    "Breadcrumb": {
+      "breadcrumb_homepage_text": {
+        "type": "Text",
+        "config": {
+          "label": "homepage text"
+        }
+      },
+      "breadcrumb_homepage_title": {
+        "type": "Text",
+        "config": {
+          "label": "homepage link title"
+        }
+      },
+      "breadcrumb_default_title": {
+        "type": "Text",
+        "config": {
+          "label": "breadcrumb default title",
+          "placeholder": "z.B. zurück zu"
+        }
+      }
+    },
+    "Soziale Netzwerke": {
+      "channels": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "channel": {
+              "type": "Text",
+              "config": {
+                "label": "channel",
+                "placeholder": "z.B. https://www.facebook.com/pages/category/Internet-Company/Aleri-Solutions-GmbH-1901257216831723/"
+              }
+            },
+            "title": {
+              "type": "Text",
+              "config": {
+                "label": "title",
+                "placeholder": "z.B. Aleri auf Facebook"
+              }
+            }
+          },
+          "label": "channels"
+        }
+      }
+    },
+    "Cookiebot": {
+      "cb_externer_inhalt_platzhalter_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "CB Externer Inhalt Platzhalter Text"
+        }
+      },
+      "cb_externer_inhalt_cta_text": {
+        "type": "Text",
+        "config": {
+          "label": "CB Externer Inhalt CTA Text"
+        }
+      },
+      "cb_externer_inhalt_cta_title": {
+        "type": "Text",
+        "config": {
+          "label": "CB Externer Inhalt CTA Title"
+        }
+      }
+    },
+    "Job application form": {
+      "job_application_title_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em",
+          "allowTargetBlank": true,
+          "label": "form title"
+        }
+      },
+      "job_application_name_text": {
+        "type": "Text",
+        "config": {
+          "label": "name text"
+        }
+      },
+      "job_application_vorname_text": {
+        "type": "Text",
+        "config": {
+          "label": "vorname text"
+        }
+      },
+      "job_application_telefon_text": {
+        "type": "Text",
+        "config": {
+          "label": "telefon text"
+        }
+      },
+      "job_application_email_text": {
+        "type": "Text",
+        "config": {
+          "label": "email text"
+        }
+      },
+      "job_application_file_text": {
+        "type": "Text",
+        "config": {
+          "label": "file upload text"
+        }
+      },
+      "job_application_form_text": {
+        "type": "Text",
+        "config": {
+          "label": "note text"
+        }
+      },
+      "job_application_checkbox_text": {
+        "type": "Text",
+        "config": {
+          "label": "checkbox text"
+        }
+      },
+      "job_application_button_text": {
+        "type": "Text",
+        "config": {
+          "label": "button text"
+        }
+      }
+    },
+    "Contact Form": {
+      "cform_title_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em",
+          "allowTargetBlank": true,
+          "label": "form title"
+        }
+      },
+      "cform_name_text": {
+        "type": "Text",
+        "config": {
+          "label": "name text"
+        }
+      },
+      "cform_vorname_text": {
+        "type": "Text",
+        "config": {
+          "label": "vorname text"
+        }
+      },
+      "cform_unternehmen": {
+        "type": "Text",
+        "config": {
+          "label": "unternehmen text"
+        }
+      },
+      "cform_email_text": {
+        "type": "Text",
+        "config": {
+          "label": "email text"
+        }
+      },
+      "cform_anfrage": {
+        "type": "Text",
+        "config": {
+          "label": "anfrage text"
+        }
+      },
+      "cform_checkbox_text": {
+        "type": "Text",
+        "config": {
+          "label": "checkbox text"
+        }
+      },
+      "cform_button_text": {
+        "type": "Text",
+        "config": {
+          "label": "button text"
+        }
+      }
+    },
+    "Settings": {
+      "settings_hintergrundfarbe": {
+        "type": "Select",
+        "config": {
+          "options": [
+            "magentarosa dunkel",
+            "magentarosa hell",
+            "violettlila dunkel",
+            "violettlila hell",
+            "cyanblau dunkel",
+            "cyanblau hell",
+            "tuerkisgruen dunkel",
+            "tuerkisgruen hell"
+          ],
+          "label": "Hintergrundfarbe",
+          "placeholder": "bitte auswählen..."
+        }
+      },
+      "settings_headline": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image",
+          "allowTargetBlank": true,
+          "label": "Headline"
+        }
+      },
+      "settings_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "Text"
+        }
+      },
+      "settings_headline_zielgruppe": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Headline Zielgruppe",
+          "placeholder": "optional, sonst aus shared content Filter"
+        }
+      },
+      "settings_zielgruppen_tags_sichtbar_": {
+        "type": "Boolean",
+        "config": {
+          "placeholder_false": "unsichtbar",
+          "placeholder_true": "sichtbar",
+          "default_value": true,
+          "label": "Zielgruppen Tags sichtbar?"
+        }
+      },
+      "settings_mehrfachauswahl_fur_zielgruppen_tags": {
+        "type": "Boolean",
+        "config": {
+          "placeholder_false": "nein",
+          "placeholder_true": "ja",
+          "default_value": true,
+          "label": "Mehrfachauswahl für Zielgruppen Tags"
+        }
+      },
+      "settings_headline_themengebiete": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Headline Themengebiete",
+          "placeholder": "optional, sonst aus shared content Filter"
+        }
+      },
+      "settings_themengebiete_tags_sichtbar_": {
+        "type": "Boolean",
+        "config": {
+          "placeholder_false": "unsichtbar",
+          "placeholder_true": "sichtbar",
+          "default_value": true,
+          "label": "Themengebiete Tags sichtbar?"
+        }
+      },
+      "settings_mehrfachauswahl_fur_themengebiete_tags": {
+        "type": "Boolean",
+        "config": {
+          "placeholder_false": "nein",
+          "placeholder_true": "ja",
+          "default_value": true,
+          "label": "Mehrfachauswahl für Themengebiete Tags"
+        }
+      },
+      "settings_headline_themen": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Headline Themen",
+          "placeholder": "optional, sonst aus shared content Filter"
+        }
+      },
+      "settings_themen_tags_sichtbar": {
+        "type": "Boolean",
+        "config": {
+          "placeholder_false": "unsichtbar",
+          "placeholder_true": "sichtbar",
+          "default_value": true,
+          "label": "Themen Tags sichtbar?"
+        }
+      },
+      "settings_mehrfachauswahl_fur_themen_tags": {
+        "type": "Boolean",
+        "config": {
+          "placeholder_false": "nein",
+          "placeholder_true": "ja",
+          "default_value": true,
+          "label": "Mehrfachauswahl für Themen Tags"
+        }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

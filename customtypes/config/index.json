@@ -1,0 +1,551 @@
+{
+  "id": "config",
+  "label": "config",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "display name"
+        }
+      }
+    },
+    "SEO": {
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta title"
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description"
+        }
+      }
+    },
+    "Social Sharing": {
+      "twitter_site": {
+        "type": "Text",
+        "config": {
+          "label": "Twitter site",
+          "placeholder": "z.B. @cassinigmbh"
+        }
+      },
+      "og_site_name": {
+        "type": "Text",
+        "config": {
+          "label": "OG site name",
+          "placeholder": "z.B. Cassini Consulting"
+        }
+      },
+      "og_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 1200,
+            "height": 627
+          },
+          "thumbnails": [],
+          "label": "OG Image"
+        }
+      }
+    },
+    "Organization Schema": {
+      "schema_name": {
+        "type": "Text",
+        "config": {
+          "label": "Name",
+          "placeholder": "z.B. Cassini"
+        }
+      },
+      "schema_url": {
+        "type": "Text",
+        "config": {
+          "label": "URL",
+          "placeholder": "z.B. https://cassini.de"
+        }
+      },
+      "schema_logo": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "Logo"
+        }
+      },
+      "social_media_channels": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "url": {
+              "type": "Link",
+              "config": {
+                "label": "Url",
+                "placeholder": "z.B. https://twitter.com/cassinigmbh",
+                "select": null
+              }
+            }
+          },
+          "label": "Social Media channels"
+        }
+      },
+      "schema_location": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "Image"
+              }
+            },
+            "name": {
+              "type": "Text",
+              "config": {
+                "label": "Name",
+                "placeholder": "z.B. Cassini Consulting Niederlassung Hamburg"
+              }
+            },
+            "address": {
+              "type": "Text",
+              "config": {
+                "label": "Address",
+                "placeholder": "z.B. Johannisbollwerk 16"
+              }
+            },
+            "city": {
+              "type": "Text",
+              "config": {
+                "label": "City",
+                "placeholder": "z.B. Hamburg"
+              }
+            },
+            "region": {
+              "type": "Text",
+              "config": {
+                "label": "Region",
+                "placeholder": "z.B. Hamburg"
+              }
+            },
+            "zip": {
+              "type": "Text",
+              "config": {
+                "label": "ZIP",
+                "placeholder": "z.B. 20459"
+              }
+            },
+            "fax": {
+              "type": "Text",
+              "config": {
+                "label": "Fax",
+                "placeholder": "z.B. +49 40 - 59 35 45 97"
+              }
+            },
+            "tel": {
+              "type": "Text",
+              "config": {
+                "label": "Tel",
+                "placeholder": "z.B. +49 40 - 59 35 45 95"
+              }
+            },
+            "description": {
+              "type": "Text",
+              "config": {
+                "label": "Description",
+                "placeholder": "Beschreibung des Standortes"
+              }
+            },
+            "opening_hours": {
+              "type": "Text",
+              "config": {
+                "label": "Opening hours",
+                "placeholder": "z.B. Mo,Tu,We,Th 09:00-12:00"
+              }
+            },
+            "map": {
+              "type": "Text",
+              "config": {
+                "label": "Map",
+                "placeholder": "z.B. https://goo.gl/maps/inTu56iwurj"
+              }
+            },
+            "embeded_map": {
+              "type": "Text",
+              "config": {
+                "label": "Embeded Map",
+                "placeholder": "nur bei NUR einem Standort relevant"
+              }
+            }
+          },
+          "label": "Location"
+        }
+      }
+    },
+    "Cookie Disclaimer": {
+      "cookie_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Cookie Text"
+        }
+      },
+      "cookie_cta_text": {
+        "type": "Text",
+        "config": {
+          "label": "Cookie CTA",
+          "placeholder": "z.B. ich stimme zu"
+        }
+      }
+    },
+    "Newsletter": {
+      "nl_teaser_uberschrift": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading4",
+          "label": "NL-Teaser Überschrift",
+          "placeholder": "z.B. Newsletteranmeldung"
+        }
+      },
+      "nl_teaser_einleitungstext": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "NL-Teaser Einleitungstext"
+        }
+      },
+      "nl_teaser_label_name": {
+        "type": "Text",
+        "config": {
+          "label": "NL-teaser Label Name"
+        }
+      },
+      "nl-teaser_label_vorname": {
+        "type": "Text",
+        "config": {
+          "label": "NL-teaser Label Vorname"
+        }
+      },
+      "nl-teaser_label_email": {
+        "type": "Text",
+        "config": {
+          "label": "NL-teaser Label Email"
+        }
+      },
+      "nl_teaser_disclaimer_text": {
+        "type": "StructuredText",
+        "config": {
+          "single": "strong,hyperlink",
+          "allowTargetBlank": true,
+          "label": "NL-Teaser Disclaimer-text"
+        }
+      },
+      "nl_teaser_cta": {
+        "type": "Text",
+        "config": {
+          "label": "NL-teaser_cta",
+          "placeholder": "z.B. senden"
+        }
+      },
+      "nl_teaser_sternchen_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "NL-Teaser Sternchen-Text",
+          "placeholder": "z.B. *Pflichtangaben"
+        }
+      },
+      "nl_teaser_default_hintergrundbild": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 2880,
+            "height": 1620
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 1152,
+              "height": 640
+            },
+            {
+              "name": "XS",
+              "width": 863,
+              "height": 480
+            }
+          ],
+          "label": "NL-Teaser Default Hintergrundbild"
+        }
+      }
+    },
+    "Eventanmeldung": {
+      "ea-teaser_uberschrift": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading2,heading3,heading4,heading5,heading6",
+          "label": "EA-Teaser Überschrift",
+          "placeholder": "z.B. Eventanmeldung"
+        }
+      },
+      "ea-teaser_einleitungstext": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "EA-Teaser Einleitungstext"
+        }
+      },
+      "ea-teaser_label_name": {
+        "type": "Text",
+        "config": {
+          "label": "EA-Teaser Label Name"
+        }
+      },
+      "ea-teaser_label_vorname": {
+        "type": "Text",
+        "config": {
+          "label": "EA-Teaser Label Vorname"
+        }
+      },
+      "ea-teaser_label_unternehmen": {
+        "type": "Text",
+        "config": {
+          "label": "EA-Teaser Label Unternehmen"
+        }
+      },
+      "ea-teaser_label_email": {
+        "type": "Text",
+        "config": {
+          "label": "EA-Teaser Label E-Mail"
+        }
+      },
+      "ea-teaser_disclaimer_1": {
+        "type": "Text",
+        "config": {
+          "label": "EA-Teaser Disclaimer 1"
+        }
+      },
+      "ea-teaser_disclaimer_2": {
+        "type": "Text",
+        "config": {
+          "label": "EA-Teaser Disclaimer 2"
+        }
+      },
+      "ea-teaser_cta_text": {
+        "type": "Text",
+        "config": {
+          "label": "EA-Teaser CTA Text",
+          "placeholder": "z.B. Jetzt anmelden"
+        }
+      }
+    },
+    "WhitepaperDownload": {
+      "wp-teaser_uberschrift": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading2,heading3,heading4,heading5,heading6",
+          "label": "WP-Teaser Überschrift",
+          "placeholder": "z.B. whitepaperdownload"
+        }
+      },
+      "wp-teaser_einleitungstext": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "WP-Teaser Einleitungstext"
+        }
+      },
+      "wp-teaser_label_name": {
+        "type": "Text",
+        "config": {
+          "label": "WP-Teaser Label Name"
+        }
+      },
+      "wp-teaser_label_vorname": {
+        "type": "Text",
+        "config": {
+          "label": "WP-Teaser Label Vorname"
+        }
+      },
+      "wp-teaser_label_unternehmen": {
+        "type": "Text",
+        "config": {
+          "label": "WP-Teaser Label Unternehmen"
+        }
+      },
+      "wp-teaser_label_email": {
+        "type": "Text",
+        "config": {
+          "label": "WP-Teaser Label E-Mail"
+        }
+      },
+      "wp-teaser_disclaimer_1": {
+        "type": "Text",
+        "config": {
+          "label": "WP-Teaser Disclaimer 1"
+        }
+      },
+      "wp-teaser_disclaimer_2": {
+        "type": "Text",
+        "config": {
+          "label": "WP-Teaser Disclaimer 2"
+        }
+      },
+      "wp-teaser-disclaimer_3": {
+        "type": "Text",
+        "config": {
+          "label": "WP-Teaser-Disclaimer 3"
+        }
+      },
+      "wp-teaser_cta_text": {
+        "type": "Text",
+        "config": {
+          "label": "WP-Teaser CTA Text",
+          "placeholder": "z.B. Jetzt anmelden"
+        }
+      }
+    },
+    "Cookiebot": {
+      "cb_externer_inhalt_platzhalter_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "CB Externer Inhalt Platzhalter Text"
+        }
+      },
+      "cb_externer_inhalt_cta_text": {
+        "type": "Text",
+        "config": {
+          "label": "CB Externer Inhalt CTA Text"
+        }
+      },
+      "cb_externer_inhalt_cta_title": {
+        "type": "Text",
+        "config": {
+          "label": "CB Externer Inhalt CTA Title"
+        }
+      }
+    },
+    "ContactForm": {
+      "contact_form_title": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading2,heading3,heading4,heading5,heading6",
+          "label": "Uberschrift",
+          "placeholder": "Kontaktformular"
+        }
+      },
+      "contact_form_intro_text": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item",
+          "allowTargetBlank": true,
+          "label": "Einleitungstext"
+        }
+      },
+      "contact_form_label_vorname": {
+        "type": "Text",
+        "config": {
+          "label": "Contact form label Vorname",
+          "placeholder": "Vorname"
+        }
+      },
+      "contact_form_label_name": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Form label Name",
+          "placeholder": "Name"
+        }
+      },
+      "contact_form_jobtitle": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Form jobtitle"
+        }
+      },
+      "contact_form_label_email": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Form label Email",
+          "placeholder": "E-Mail-Adresse"
+        }
+      },
+      "contact_form_label_phone": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Form label Phone",
+          "placeholder": "Telefonnummer"
+        }
+      },
+      "contact_form_label_company": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Form label Company",
+          "placeholder": "Unternehmen"
+        }
+      },
+      "contact_form_label_request": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Form label Request",
+          "placeholder": "Freitextfeid für die Anfrage"
+        }
+      },
+      "contact_form_disclaimer_1": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Form Disclaimer 1"
+        }
+      },
+      "contact_form_disclaimer_2": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Form Disclaimer 2"
+        }
+      },
+      "contact_form_label_cta": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Form label CTA",
+          "placeholder": "Jetzt anmelden"
+        }
+      }
+    },
+    "Breadcrumbs": {
+      "breadcrumbs_home_text": {
+        "type": "Text",
+        "config": {
+          "label": "Home Text",
+          "placeholder": "z.B. Home"
+        }
+      },
+      "breadcrumbs_blacklist": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "breadcrumbs_blacklist_zielseite": {
+              "type": "Link",
+              "config": {
+                "select": "document",
+                "label": "Zielseite"
+              }
+            }
+          },
+          "label": "Seiten ohne Breadcrumbs"
+        }
+      }
+    }
+  },
+  "hash": "2a0f94b3128e7535c609d6677b380309",
+  "status": true,
+  "format": "custom"
+}

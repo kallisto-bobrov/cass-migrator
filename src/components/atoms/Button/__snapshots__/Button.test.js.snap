@@ -1,0 +1,1924 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button snapshots default theme 1`] = `
+Array [
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #2CC700;
+  padding: 10px 20px;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #32e100;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #2CC700;
+  padding: 10px 20px;
+  padding: 0 15px;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #32e100;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0 > * + * {
+  margin-left: 10px;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #2CC700;
+  padding: 10px 20px;
+  background: #313942;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #32e100;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0:before {
+  background: #47525f;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #2CC700;
+  padding: 10px 20px;
+  padding: 0 15px;
+  background: #313942;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #32e100;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0 > * + * {
+  margin-left: 10px;
+}
+
+.c0:before {
+  background: #47525f;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #2CC700;
+  padding: 10px 20px;
+  padding: 0 15px;
+  background: #313942;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #32e100;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0 > * + * {
+  margin-left: 10px;
+}
+
+.c0:before {
+  background: #47525f;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+  </button>,
+]
+`;
+
+exports[`Button snapshots second theme 1`] = `
+Array [
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #FF8135;
+  padding: 10px 20px;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #ff914f;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #FF8135;
+  padding: 10px 20px;
+  padding: 0 15px;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #ff914f;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0 > * + * {
+  margin-left: 10px;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #FF8135;
+  padding: 10px 20px;
+  background: #313942;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #ff914f;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0:before {
+  background: #47525f;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #FF8135;
+  padding: 10px 20px;
+  padding: 0 15px;
+  background: #313942;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #ff914f;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0 > * + * {
+  margin-left: 10px;
+}
+
+.c0:before {
+  background: #47525f;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "Lora-Bold",serif;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 700;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #FF8135;
+  padding: 10px 20px;
+  padding: 0 15px;
+  background: #313942;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #ff914f;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0 > * + * {
+  margin-left: 10px;
+}
+
+.c0:before {
+  background: #47525f;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 700;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+  </button>,
+]
+`;
+
+exports[`Button snapshots third theme 1`] = `
+Array [
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #009999;
+  padding: 10px 20px;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #00b3b3;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #009999;
+  padding: 10px 20px;
+  padding: 0 15px;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #00b3b3;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0 > * + * {
+  margin-left: 10px;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #009999;
+  padding: 10px 20px;
+  background: #313942;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #00b3b3;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0:before {
+  background: #47525f;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #009999;
+  padding: 10px 20px;
+  padding: 0 15px;
+  background: #313942;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #00b3b3;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0 > * + * {
+  margin-left: 10px;
+}
+
+.c0:before {
+  background: #47525f;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+    <span>
+      <svg
+        height="8px"
+        version="1.1"
+        viewBox="0 0 18 8"
+        width="18px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          id="Symbols"
+          stroke="none"
+          strokeWidth="1"
+        >
+          <g
+            fill="currentColor"
+            id="m003---Footer_XL"
+            transform="translate(-382.000000, -601.000000)"
+          >
+            <g
+              id="Group-14"
+              transform="translate(300.000000, 422.000000)"
+            >
+              <g
+                id="Group-Copy-5"
+                transform="translate(0.000000, 165.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="90.1782098 8.97199207 90.1782098 23.7748389 88.2295517 21.8263225 87.0280079 23.0279371 91.0280079 27.0280079 95.0280079 23.0279371 93.8263225 21.8263225 91.8777353 23.7748389 91.8777353 8.97199207"
+                  transform="translate(91.028008, 18.000000) rotate(-90.000000) translate(-91.028008, -18.000000) "
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button>,
+  .c0 {
+  $position: relative;
+  color: #000000;
+  font-family: "Patua One",cursive;
+  -webkit-letter-spacing: 0.34px;
+  -moz-letter-spacing: 0.34px;
+  -ms-letter-spacing: 0.34px;
+  letter-spacing: 0.34px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #009999;
+  padding: 10px 20px;
+  padding: 0 15px;
+  background: #313942;
+}
+
+.c0 > * + * {
+  margin-left: 15px;
+}
+
+.c0:hover {
+  color: #FFFFFF;
+}
+
+.c0:before {
+  content: '';
+  background: #00b3b3;
+  $position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) .15s;
+  z-index: 1;
+}
+
+.c0:hover:before {
+  -webkit-transition: -webkit-transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  transition: transform .15s cubic-bezier(.45,.05,.3,.95) 0s;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.c0 > * {
+  margin: 0;
+  $position: relative;
+  z-index: 2;
+}
+
+.c0 > * + * {
+  margin-left: 20px;
+}
+
+.c0 > * + * {
+  margin-left: 10px;
+}
+
+.c0:before {
+  background: #47525f;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    -webkit-letter-spacing: 0.34px;
+    -moz-letter-spacing: 0.34px;
+    -ms-letter-spacing: 0.34px;
+    letter-spacing: 0.34px;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: normal;
+  }
+}
+
+<button
+    className="c0"
+    title="Button title"
+    type="button"
+  >
+    <span>
+      Click me
+    </span>
+  </button>,
+]
+`;

@@ -1,0 +1,34 @@
+{
+  "id": "tags_aleri",
+  "label": "zielgruppen_tags_aleri",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "display name"
+        }
+      },
+      "tag": {
+        "type": "Text",
+        "config": {
+          "label": "tag",
+          "placeholder": "z.b. Digitale Produkte"
+        }
+      },
+      "sub_tag": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": ["tags_aleri"],
+          "label": "sub tag"
+        }
+      }
+    }
+  },
+  "hash": "cdbd28c04eb7b04d1d9ee1ec746caed5",
+  "status": false,
+  "format": "custom"
+}

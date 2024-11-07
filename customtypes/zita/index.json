@@ -1,0 +1,40 @@
+{
+  "id": "zita",
+  "label": "zitat",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display name"
+        }
+      }
+    },
+    "Content": {
+      "zitat": {
+        "type": "Text",
+        "config": {
+          "label": "Zitat"
+        }
+      },
+      "author": {
+        "type": "Text",
+        "config": {
+          "label": "Author",
+          "placeholder": "z.B. Angabe von Name, Position und Firma"
+        }
+      },
+      "quelle": {
+        "type": "Text",
+        "config": {
+          "label": "Quelle"
+        }
+      }
+    }
+  },
+  "hash": "1aac6093b3c1c507afadc06fdeb31eca",
+  "status": true,
+  "format": "custom"
+}

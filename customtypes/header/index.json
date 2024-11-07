@@ -1,0 +1,203 @@
+{
+  "id": "header",
+  "label": "header",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "name"
+        }
+      },
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display name"
+        }
+      }
+    },
+    "Navigation": {
+      "homepage_link_title": {
+        "type": "Text",
+        "config": {
+          "label": "Homepage link title"
+        }
+      },
+      "homepage_link_url": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": ["homepage"],
+          "label": "Homepage link URL"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "choices": {
+            "navigation": {
+              "type": "Slice",
+              "fieldset": "Navigationselement",
+              "description": "Navigationselement mit optionaler Subnavigation",
+              "icon": "insert_link",
+              "display": "list",
+              "non-repeat": {
+                "link_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Hauptnavigationspunkt Text",
+                    "placeholder": "z.B. Inspire"
+                  }
+                },
+                "link_text_sub": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Text für Subnavigation",
+                    "placeholder": "z.B. Über uns. Wenn nicht gepflegt: Übersicht"
+                  }
+                },
+                "link_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link title",
+                    "placeholder": "z.B. Hier gelangen Sie zu ..."
+                  }
+                },
+                "url": {
+                  "type": "Link",
+                  "config": {
+                    "label": "URL",
+                    "placeholder": "z.B. Hier gelangen Sie zu ...",
+                    "select": null
+                  }
+                },
+                "anker_link": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anker Link",
+                    "placeholder": "Bitte ID des Ziel-Ankers angeben."
+                  }
+                },
+                "link_target": {
+                  "type": "Select",
+                  "config": {
+                    "options": ["_self", "_blank"],
+                    "default_value": "_self",
+                    "label": "Link target"
+                  }
+                }
+              },
+              "repeat": {
+                "link_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link text"
+                  }
+                },
+                "link_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link title"
+                  }
+                },
+                "url": {
+                  "type": "Link",
+                  "config": {
+                    "label": "URL",
+                    "select": null
+                  }
+                },
+                "anker_link": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anker Link",
+                    "placeholder": "Bitte ID des Ziel-Ankers angeben."
+                  }
+                },
+                "link_target": {
+                  "type": "Select",
+                  "config": {
+                    "options": ["_self", "_blank"],
+                    "default_value": "_self",
+                    "label": "Link target"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Meta Navigation": {
+      "meta_navigation": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "link_text": {
+              "type": "Text",
+              "config": {
+                "label": "Link text"
+              }
+            },
+            "link_title": {
+              "type": "Text",
+              "config": {
+                "label": "Link title"
+              }
+            },
+            "url": {
+              "type": "Link",
+              "config": {
+                "label": "URL",
+                "select": null
+              }
+            },
+            "anker_link": {
+              "type": "Text",
+              "config": {
+                "label": "Anker Link",
+                "placeholder": "Bitte ID des Ziel-Ankers angeben."
+              }
+            },
+            "link_target": {
+              "type": "Select",
+              "config": {
+                "options": ["_self", "_blank"],
+                "default_value": "_self",
+                "label": "Link target"
+              }
+            }
+          },
+          "label": "Meta Navigation"
+        }
+      }
+    },
+    "Jobs": {
+      "jobs_link_text": {
+        "type": "Text",
+        "config": {
+          "label": "Jobs Link text"
+        }
+      },
+      "jobs_link_title": {
+        "type": "Text",
+        "config": {
+          "label": "Jobs Link title"
+        }
+      },
+      "jobs_url": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "label": "Jobs URL"
+        }
+      }
+    }
+  },
+  "hash": "e1c4c29b6d0e2e3e2ecb0e5a18fe1791",
+  "status": true,
+  "format": "custom"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "autor",
+  "label": "autor",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display name"
+        }
+      },
+      "portrait": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 290,
+            "height": 290
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 290,
+              "height": 290
+            },
+            {
+              "name": "XS",
+              "width": 290,
+              "height": 290
+            }
+          ],
+          "label": "Portrait"
+        }
+      },
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "Name"
+        }
+      },
+      "position": {
+        "type": "Text",
+        "config": {
+          "label": "Position"
+        }
+      },
+      "email": {
+        "type": "Text",
+        "config": {
+          "label": "E-Mail"
+        }
+      },
+      "phone": {
+        "type": "Text",
+        "config": {
+          "label": "Telefonnummer"
+        }
+      },
+      "linkedin": {
+        "type": "Text",
+        "config": {
+          "label": "LinkedIn",
+          "placeholder": "Bitte URL inklusive https:// eingeben"
+        }
+      },
+      "xing": {
+        "type": "Text",
+        "config": {
+          "label": "Xing",
+          "placeholder": "Bitte URL inklusive https:// eingeben"
+        }
+      },
+      "twitter": {
+        "type": "Text",
+        "config": {
+          "label": "Twitter",
+          "placeholder": "Bitte URL inklusive https:// eingeben"
+        }
+      },
+      "facebook": {
+        "type": "Text",
+        "config": {
+          "label": "Facebook",
+          "placeholder": "Bitte URL inklusive https:// eingeben"
+        }
+      },
+      "whatsapp": {
+        "type": "Text",
+        "config": {
+          "label": "WhatsApp",
+          "placeholder": "Bitte URL inklusive https:// eingeben"
+        }
+      }
+    },
+    "Überlagerung": {
+      "bild_uberlagerung": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 2880,
+            "height": 1620
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 1152,
+              "height": 640
+            },
+            {
+              "name": "XS",
+              "width": 863,
+              "height": 480
+            }
+          ],
+          "label": "Bild"
+        }
+      },
+      "bildunterschrift_uberlagerung": {
+        "type": "Text",
+        "config": {
+          "label": "Bildunterschrift"
+        }
+      },
+      "uberschrift_uberlagerung": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading3",
+          "label": "Überschrift"
+        }
+      },
+      "text_uberlagerung": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph,strong,em,hyperlink,list-item,o-list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "Beschreibung"
+        }
+      }
+    }
+  },
+  "hash": "50f2d8df694f8beee5bc182d0bad891a",
+  "status": true,
+  "format": "custom"
+}

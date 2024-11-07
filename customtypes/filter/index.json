@@ -1,0 +1,37 @@
+{
+  "id": "filter",
+  "label": "filter",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display name"
+        }
+      }
+    },
+    "Filter": {
+      "tags": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "tag": {
+              "type": "Link",
+              "config": {
+                "select": "document",
+                "customtypes": ["tag"],
+                "label": "Tag"
+              }
+            }
+          },
+          "label": "Tags"
+        }
+      }
+    }
+  },
+  "hash": "11c66e18cd3ad2651b816df300db148e",
+  "status": false,
+  "format": "custom"
+}

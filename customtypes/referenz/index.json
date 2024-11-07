@@ -1,0 +1,56 @@
+{
+  "id": "referenz",
+  "label": "referenz",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1",
+          "label": "Display name"
+        }
+      }
+    },
+    "Content": {
+      "bild": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 1440,
+            "height": 2000
+          },
+          "thumbnails": [
+            {
+              "name": "MD",
+              "width": 1152,
+              "height": 640
+            },
+            {
+              "name": "XS",
+              "width": 863,
+              "height": 480
+            }
+          ],
+          "label": "Bild"
+        }
+      },
+      "headline": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading3,heading4",
+          "label": "Headline"
+        }
+      },
+      "text": {
+        "type": "Text",
+        "config": {
+          "label": "Text"
+        }
+      }
+    }
+  },
+  "hash": "422ff55f6f8ee19e25425b4ce4ca1e59",
+  "status": false,
+  "format": "custom"
+}

@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders AnsprechpartnerInfo long mail without social links snapshot 1`] = `
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c0 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: normal;
+  color: #2CC700;
+  margin-bottom: 18px;
+}
+
+.c1 {
+  color: #000000;
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 11px;
+}
+
+.c2 {
+  display: block;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c1 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+<div>
+  <h3
+    className="c0"
+  >
+    Maximilian Schnarrenberger
+  </h3>
+  <p
+    className="c1"
+  >
+    Mitarbeiter Human Resources & Recruiting bei Cassini
+  </p>
+  <a
+    className="c2 c3"
+    href="mailto:schnarrenbergervonschaumburglahnstein@cassini.de"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    rel={null}
+    title=""
+  >
+    <div>
+      schnarrenbergervonschaumburglahnstein@cassini.de
+    </div>
+  </a>
+  <a
+    className="c2 c3"
+    href="tel:+49 40 - 59 35 45 95"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    rel={null}
+    title=""
+  >
+    <div>
+      +49 40 - 59 35 45 95
+    </div>
+  </a>
+</div>
+`;
+
+exports[`renders default AnsprechpartnerInfo snapshot 1`] = `
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c0 {
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: normal;
+  color: #2CC700;
+  margin-bottom: 18px;
+}
+
+.c1 {
+  color: #000000;
+  font-family: "GeomanistRegular",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 11px;
+}
+
+.c2 {
+  display: block;
+  color: #000000;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: normal;
+  font-family: "GeomanistMedium",Arial,sans-serif;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:767px) {
+  .c1 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+
+<div>
+  <h3
+    className="c0"
+  >
+    Maximilian Schnarrenberger
+  </h3>
+  <p
+    className="c1"
+  >
+    Mitarbeiter Human Resources & Recruiting bei Cassini
+  </p>
+  <a
+    className="c2 c3"
+    href="mailto:schnarrenberger@cassini.de"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    rel={null}
+    title=""
+  >
+    <div>
+      schnarrenberger@cassini.de
+    </div>
+  </a>
+  <a
+    className="c2 c3"
+    href="tel:+49 40 - 59 35 45 95"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    rel={null}
+    title=""
+  >
+    <div>
+      +49 40 - 59 35 45 95
+    </div>
+  </a>
+</div>
+`;
